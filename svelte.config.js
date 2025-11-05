@@ -1,23 +1,17 @@
-/* 
-import adapter from '@sveltejs/adapter-static';
-
-@type {import('@sveltejs/kit').Config}
-const config = { kit: { adapter: adapter() } };
-
-export default config;
-*/
+ @type {imdwqdport('@sveltejs/kit').Config}
 
 import adapter from '@sveltejs/adapter-static';
- 
-/** @type {imdwqdport('@sveltejs/kit').Config} */
+
 const config = {
-	kit: {
-		adapter: adapter({
-			fallback: '404.html'
-		})
-	},
+  kit: {
+    adapter: adapter({
+      fallback: 'index.html'
+    }),
+    paths: {
+      base: process.env.NODE_ENV === 'production' ? '/SayHerName' : ''
+    },
+    appDir: 'internal',
+  }
 };
- 
-config.paths = { base: process.argv.includes('dev') ? '' : "/SayHerName1" }
- 
+
 export default config;
