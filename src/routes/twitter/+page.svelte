@@ -2,18 +2,12 @@
     import { onMount } from "svelte";
     import { goto } from '$app/navigation';
 
-    function navigateToTwitter() {
-        goto('twitter');
-    }
-
-    function navigateToNews() {
-        goto('news');
-    }
-
-    function navigateHome() {
-        goto('/');
-    }
     import Scroller from "$lib/Scroller.svelte";
+
+    // TOP OF PAGE COMPONENTS
+    import Header from "$lib/sections/Header.svelte";
+    import Hero from "$lib/twitterSections/Hero.svelte";
+    import Overview from "$lib/twitterSections/Overview.svelte";
 
     // TEXT COMPONENTS
     import Rise from "$lib/twitterSections/Rise.svelte";
@@ -26,6 +20,13 @@
     // VISUAL COMPONENTS
 </script>
 
+<!-- TOP OF PAGE -->
+<Header />
+<main class="bg-linear-to-b from-gray-900 to-black text-white">
+    <Hero />
+    <Overview />
+</main>
+
 <!-- SECTION 1 -->
 <Scroller layout="right">
   <div slot="sticky">
@@ -37,6 +38,8 @@
   </div>
 </Scroller>
 
+<!-- carousel of tweets from her dream deferred week -->
+
 <!-- SECTION 2 -->
 <Scroller layout="right">
   <div slot="sticky">
@@ -47,6 +50,9 @@
     <Evolution />
   </div>
 </Scroller>
+
+<!-- also include some other hashtags not included in top 25 like #ifidieinpolicecustody -->
+<!-- some other form of visualization examining what types of tweets -->
 
 <!-- SECTION 3 -->
 <Scroller layout="right">
