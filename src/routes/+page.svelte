@@ -9,14 +9,10 @@
     goto('news');
   }
 
-  function navigateHome() {
-    goto('/');
-  }
-
-  import Header from "$lib/sections/Header.svelte";
+  import HeaderBar from "$lib/components/HeaderBar.svelte";
 </script>
 
-<Header />
+<HeaderBar />
 
 <svelte:head>
   <title>#SayHerName: Voices, Media, and Data</title>

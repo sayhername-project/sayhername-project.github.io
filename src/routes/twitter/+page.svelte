@@ -1,99 +1,54 @@
-<script>
-    import { onMount } from "svelte";
-    import { goto } from '$app/navigation';
-
-    import Scroller from "$lib/Scroller.svelte";
-
-    // TOP OF PAGE COMPONENTS
-    import Header from "$lib/sections/Header.svelte";
+<script lang="ts">
+	// TOP OF PAGE COMPONENTS
+    import HeaderBar from "$lib/components/HeaderBar.svelte";
     import Hero from "$lib/twitterSections/Hero.svelte";
     import Overview from "$lib/twitterSections/Overview.svelte";
 
     // TEXT COMPONENTS
-    import Rise from "$lib/twitterSections/Rise.svelte";
-    import Users from "$lib/twitterSections/Users.svelte";
-    import Behavior from "$lib/twitterSections/Behavior.svelte";
-    import Evolution from "$lib/twitterSections/Evolution.svelte";
-    import Linkage from "$lib/twitterSections/Linkage.svelte";
-    import Motivation from "$lib/twitterSections/Motivation.svelte";
-
-    // VISUAL COMPONENTS
+    import Pt1 from "$lib/twitterSections/Pt1.svelte";
+    import Pt2 from "$lib/twitterSections/Pt2.svelte";
+    import Pt3 from "$lib/twitterSections/Pt3.svelte";
+    import Pt4 from "$lib/twitterSections/Pt4.svelte";
 </script>
 
 <!-- TOP OF PAGE -->
-<Header />
-<main class="bg-linear-to-b from-gray-900 to-black text-white">
-    <Hero />
-    <Overview />
+
+<main class="">
+    <HeaderBar />
+    <main class="bg-linear-to-b from-gray-900 to-black text-white">
+        <Hero />
+        <Overview />
+    </main>
+
+    <!-- Scrollytelling Sections -->
+    <div class="scrolling-container">
+        <Pt1 />
+        <Pt2 />
+        <Pt3 />
+        <Pt4 />
+</div>
+
+<!-- <Spacer height="20vh" /> -->
 </main>
 
-<!-- SECTION 1 -->
-<Scroller layout="right">
-  <div slot="sticky">
-    <p> frequency data chart on twit #sayhername  </p>
-  </div>
+<style>
+	:global(html) {
+		scroll-behavior: smooth;
+	}
 
-  <div slot="scrolly">
-    <Rise/>
-  </div>
-</Scroller>
+	.scrolling-container {
+		background: linear-gradient(to right, rgb(17, 17, 17) 50%, rgb(245, 245, 245) 50%);
+		background-attachment: fixed;
+	}
 
-<!-- carousel of tweets from her dream deferred week -->
-
-<!-- SECTION 2 -->
-<Scroller layout="right">
-  <div slot="sticky">
-    <p> idk what vis yet </p>
-  </div>
-
-  <div slot="scrolly">
-    <Evolution />
-  </div>
-</Scroller>
-
-<!-- also include some other hashtags not included in top 25 like #ifidieinpolicecustody -->
-<!-- some other form of visualization examining what types of tweets -->
-
-<!-- SECTION 3 -->
-<Scroller layout="right">
-  <div slot="sticky">
-    <p> some vis, maybe the tables and what they describe </p>
-  </div>
-
-  <div slot="scrolly">
-    <Users />
-  </div>
-</Scroller>
-
-<!-- SECTION 4 -->
-<Scroller layout="right">
-  <div slot="sticky">
-    <p> donut </p>
-  </div>
-
-  <div slot="scrolly">
-    <Behavior />
-  </div>
-</Scroller>
-
-<!-- SECTION 5 -->
-<Scroller layout="right">
-  <div slot="sticky">
-    <p> donut </p>
-  </div>
-
-  <div slot="scrolly">
-    <Motivation />
-  </div>
-</Scroller>
-
-<!-- SECTION 6 -->
-<Scroller layout="right">
-  <div slot="sticky">
-    <p> heatmap or some better one </p>
-  </div>
-
-  <div slot="scrolly">
-    <Linkage />
-  </div>
-</Scroller>
+	@keyframes fadeInUp {
+		from {
+			opacity: 0;
+			transform: translateY(30px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+</style>
