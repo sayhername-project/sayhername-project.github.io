@@ -9,7 +9,7 @@
   {#snippet sticky()}
     <div class="chart-container">
       <iframe 
-        src="/news-charts/keyword_categories_styled.html" 
+        src="news-charts/keyword_categories_styled.html" 
         class="chart-iframe"
         title="Keyword Categories Distribution"
       ></iframe>
@@ -42,7 +42,7 @@
   {#snippet sticky()}
     <div class="chart-container">
       <iframe 
-        src="/news-charts/emotion_framing_styled.html" 
+        src="news-charts/emotion_framing_styled.html" 
         class="chart-iframe"
         title="Emotional Framing in Headlines"
       ></iframe>
@@ -64,7 +64,7 @@
   {#snippet sticky()}
     <div class="chart-container">
       <iframe 
-        src="/news-charts/keywords_titles_styled.html" 
+        src="news-charts/keywords_titles_styled.html" 
         class="chart-iframe"
         title="Keyword Frequency in Headlines"
       ></iframe>
