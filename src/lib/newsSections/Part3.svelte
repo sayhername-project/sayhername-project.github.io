@@ -9,7 +9,7 @@
   {#snippet sticky()}
     <div class="chart-container">
       <iframe 
-        src="/news-charts/source_type_distribution_pie_styled.html" 
+        src="news-charts/source_type_distribution_pie_styled.html" 
         class="chart-iframe"
         title="Source Distribution"
       ></iframe>
@@ -43,7 +43,7 @@
   {#snippet sticky()}
     <div class="chart-container">
       <iframe 
-        src="/news-charts/timeline_by_source_type_styled.html" 
+        src="news-charts/timeline_by_source_type_styled.html" 
         class="chart-iframe"
         title="Source Distribution Over Time"
       ></iframe>
