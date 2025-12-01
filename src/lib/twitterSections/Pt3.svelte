@@ -3,32 +3,32 @@
   import ArticleText from '$lib/components/ArticleText.svelte';
   import Heading from '$lib/components/Heading.svelte';
   import TweetCard from '$lib/components/TweetCard.svelte';
+  import Spacer from '$lib/components/Spacer.svelte';
 
-    // Carousel components
-    import { onMount, tick } from 'svelte';
-    import { browser } from '$app/environment';
+  import { onMount, tick } from 'svelte';
+  import { browser } from '$app/environment';
 
-    // dynamic import ensures no SSR errors
-    let CarouselCmp = null;
-    let mounted = false;
-    let carousel = null;
+  let CarouselCmp = null;
+  let mounted = false;
+  let carousel = null;
 
-    onMount(async () => {
-        if (!browser) return;
-        await tick(); // ensures DOM is stable
-        const mod = await import('svelte-carousel');
-        CarouselCmp = mod.default;
-        mounted = true;
-    });
+  onMount(async () => {
+      if (!browser) return;
+      await tick(); 
+      const mod = await import('svelte-carousel');
+      CarouselCmp = mod.default;
+      mounted = true;
+  });
 
-    function handleNextClick() {
-        carousel?.next?.();
-    }
+  function handleNextClick() {
+      carousel?.next?.();
+  }
 </script>
 
 <!-- SUBSECTION: Intro to Users -->
 <Scroller layout="right">
   {#snippet sticky()}
+    <Spacer />
     <div class="conclusion-visual">
       <h2 class="text-4xl text-white mb-8 font-bold">#SayHerName on Twitter</h2>
       <div class="stat-grid">
@@ -40,25 +40,43 @@
           <div class="stat-number">99,949</div>
           <div class="stat-label">original tweets</div>
         </div>
+        <div class="stat-card">
+          <div class="stat-number">429,024</div>
+          <div class="stat-label">users involved</div>
+        </div>
       </div>
     </div>
+    <Spacer />
   {/snippet}
 
   {#snippet scrolly()}
-    <Heading scene="Scene 3" title="The Users behind #SayHerName" subtitle="A deeper look into the emotions that carried #SayHerName across Twitter" />
+    <Heading 
+      scene="Scene 3" 
+      title="The Users behind #SayHerName" 
+      subtitle="A deeper look into the emotions that carried #SayHerName across Twitter" 
+    />
     
     <ArticleText>
-      At the heart of the #SayHerName movement are the thousands of individuals who transformed their personal and collective grief, outrage, and solidarity into digital action, tweeting #SayHerName a total of <strong>564,925</strong> times in 2015. 
+      At the heart of the #SayHerName movement are the thousands of individuals who transformed their personal 
+      and collective grief, outrage, and solidarity into digital action, tweeting #SayHerName a total of 
+      <strong>564,925</strong> times in 2015. 
+
       <br/><br/>
-      While we do not know each user’s true intentions behind their tweets, the following research approaches their tweets through the lens of perceived meaning: how their words, tone, and actions may have been received and understood by others within the online public sphere. 
+
+      While we do not know each user’s true intentions behind their tweets, the following research approaches 
+      their tweets through the lens of perceived meaning: how their words, tone, and actions may have been received 
+      and understood by others within the online public sphere. 
     </ArticleText>
 
   {/snippet}
 </Scroller>
 
+<Spacer />
+
 <!-- SUBSECTION: Analysis of Behavior -->
 <Scroller layout="right">
   {#snippet sticky()}
+    <Spacer />
     <div class="chart-container">
         <iframe 
             src="twit-charts/behaviors_chart.html" 
@@ -66,14 +84,20 @@
             title="Distribution of Tweet Behaviors<br><sup>#SayHerName</sup>"
         ></iframe>
     </div>
+    <Spacer />
   {/snippet}
 
   {#snippet scrolly()}    
     <ArticleText>
-      Studying only original tweets, we manually coded a random sample of 2,000 tweets (of varying lengths and content). From there, we extracted three key behavioral patterns that explore how users felt about the conversation: outrage against a broken system, unifying others under this movement, or expressing sorrow about the grievances against the Black female community.
+      Studying only original tweets, we manually coded a random sample of 2,000 tweets (of varying lengths and content). 
+      From there, we extracted three key behavioral patterns that explore how users felt about the conversation: 
+      outrage against a broken system, unifying others under this movement, or expressing sorrow about the grievances 
+      against the Black female community.
     </ArticleText>
   {/snippet}
 </Scroller>
+
+<Spacer />
 
 <!-- SUBSECTION: Unity and Support -->
 <Scroller layout="right">
@@ -111,13 +135,23 @@
           </CarouselCmp>
       {/if}
     </div>
+    <br/><br/>
+    <div class="cite-text">
+        <p class="cite-p">
+            To protect user confidentiality, the above tweets were anonymized.
+        </p>
+    </div>
+    <Spacer />
   {/snippet}
 
   {#snippet scrolly()}    
     <ArticleText>
-      The overwhelming majority of original tweets, 72.1%,  fall under <i>Unity and Support</i>, showing that #SayHerName functioned mainly as a collective space of affirmation and solidarity to amplify names and stories that had been overlooked.
+      The overwhelming majority of original tweets, 72.1%,  fall under <i>Unity and Support</i>, showing that 
+      #SayHerName functioned mainly as a collective space of affirmation and solidarity to amplify names and stories 
+      that had been overlooked.
       <br /><br />
-      This data suggests that the movement’s core revolved around Twitter users who worked to support, organize, and grow the movement. 
+      This data suggests that the movement’s core revolved around Twitter users who worked to support, organize, 
+      and grow the movement. 
     </ArticleText>
   {/snippet}
 </Scroller>
@@ -125,6 +159,7 @@
 <!-- SUBSECTION: Outrage -->
 <Scroller layout="right">
   {#snippet sticky()}
+    <Spacer />
     <div class="conclusion-visual">
       <h2 class="text-3xl text-white mb-8 font-bold">Tweets that emote outrage</h2>
     </div>
@@ -158,11 +193,21 @@
           </CarouselCmp>
       {/if}
     </div>
+    <br/><br/>
+    <div class="cite-text">
+        <p class="cite-p">
+            To protect user confidentiality, the above tweets were anonymized.
+        </p>
+    </div>
+    <Spacer />
   {/snippet}
 
   {#snippet scrolly()}    
     <ArticleText>
-      Almost a quarter of tweets, 22.8%, expressed <i>Outrage</i>, reflecting frustration and anger towards interlocking systems of oppression–systemic racism, police violence, the media invisibility of Black women, etc. While not the dominant emotional tone, this outrage intensified during pivotal media releases, particularly during the AAPF’s #HerDreamDeferred week when #SayHerName first gained momentum. 
+      Almost a quarter of tweets, 22.8%, expressed <i>Outrage</i>, reflecting frustration and anger towards 
+      interlocking systems of oppression–systemic racism, police violence, the media invisibility of Black women, 
+      etc. While not the dominant emotional tone, this outrage intensified during pivotal media releases, particularly 
+      during the AAPF’s #HerDreamDeferred week when #SayHerName first gained momentum. 
     </ArticleText>
   {/snippet}
 </Scroller>
@@ -171,6 +216,7 @@
 <!-- SUBSECTION: Sad/Mournful -->
 <Scroller layout="right">
   {#snippet sticky()}
+    <Spacer />
     <div class="conclusion-visual">
       <h2 class="text-3xl text-white mb-8 font-bold">Tweets that emote sadness/mourning</h2>
     </div>
@@ -204,11 +250,21 @@
           </CarouselCmp>
       {/if}
     </div>
+    <br/><br/>
+    <div class="cite-text">
+        <p class="cite-p">
+            To protect user confidentiality, the above tweets were anonymized.
+        </p>
+    </div>
+    <Spacer />
   {/snippet}
 
   {#snippet scrolly()}    
     <ArticleText>
-      The smallest category, 5.12%, <i>Sad/Mournful</i>, represents tweets rooted in grief–a direct emotional response to lives lost and the injustices embedded in systems that harm Black women. Its small percentage suggests that, although the movement began in mourning, grief was more often folded into supportive and activist messaging than expressed on its own. 
+      The smallest category, 5.12%, <i>Sad/Mournful</i>, represents tweets rooted in grief–a direct emotional 
+      response to lives lost and the injustices embedded in systems that harm Black women. Its small percentage 
+      suggests that, although the movement began in mourning, grief was more often folded into supportive 
+      and activist messaging than expressed on its own. 
     </ArticleText>
   {/snippet}
 </Scroller>
@@ -216,6 +272,7 @@
 <!-- SUBSECTION: Analysis of Motivation -->
 <Scroller layout="right">
   {#snippet sticky()}
+    <Spacer />
     <div class="conclusion-visual">
       <h2 class="text-4xl text-white mb-8 font-bold">#SayHerName on Twitter</h2>
       <div class="stat-grid">
@@ -225,6 +282,7 @@
         </div>
       </div>
     </div>
+    <Spacer />
   {/snippet}
 
   {#snippet scrolly()}    
@@ -238,6 +296,7 @@
 <!-- SUBSECTION: Linkage -->
 <Scroller layout="right">
   {#snippet sticky()}
+    <Spacer />
     <div class="conclusion-visual">
       <h2 class="text-4xl text-white mb-8 font-bold">#SayHerName on Twitter</h2>
       <div class="stat-grid">
@@ -247,6 +306,7 @@
         </div>
       </div>
     </div>
+    <Spacer />
   {/snippet}
 
   {#snippet scrolly()}    
@@ -271,19 +331,19 @@
   }
 
   .chart-container {
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .chart-iframe {
-      width: 95%;
-      height: 95%;
-      border: none;
-      background: transparent;
-      border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    min-height: 700px; /* adjust to chart size */
+    border: none;
   }
 
   .stat-grid {
@@ -307,6 +367,7 @@
     font-weight: 700;
     color: #d98c8c;
     margin-bottom: 0.5rem;
+    text-align: center;
   }
 
   .stat-label {
@@ -314,7 +375,25 @@
     color: #e8d9c3;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    text-align: center;
   }
+
+  .cite-text {
+    width: 100%;
+    min-height: 30vh;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin: 0 auto 2rem auto;
+    color: #111;
+  }
+
+  .cite-p {
+    width: 100%;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
 
   .sticky-carousel-container {
       width: 80%;         /* keep it centered */
