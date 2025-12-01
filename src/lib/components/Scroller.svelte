@@ -21,13 +21,12 @@
 		min-height: 100vh;
 	}
 
-	.left .scrolly {
+	.left .sticky {
 		order: 0;
 	}
-	.left .sticky {
+	.left .scrolly {
 		order: 1;
 	}
-
 	.right .scrolly {
 		order: 1;
 	}
@@ -54,7 +53,6 @@
 		padding: 2rem;
 		/* border-right: 1px solid rgba(255, 255, 255, 0.05); */
 	}
-
 	.scrolly {
 		z-index: 1;
 		background: rgb(245, 245, 245);

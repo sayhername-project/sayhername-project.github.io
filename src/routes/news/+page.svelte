@@ -3,6 +3,7 @@
 	import Spacer from '$lib/components/Spacer.svelte';
 
 	// Import section components
+    import NamesInteractive from '$lib/newsSections/NamesInteractive.svelte';
 	import Opening from '../../lib/newsSections/Opening.svelte';
 	import Part1 from '../../lib/newsSections/Part1.svelte';
 	import Part2 from '../../lib/newsSections/Part2.svelte';

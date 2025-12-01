@@ -15,11 +15,11 @@
           <div class="stat-label">Total Articles</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">419</div>
+          <div class="stat-number">421</div>
           <div class="stat-label">Unique News Outlets</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">298</div>
+          <div class="stat-number">301</div>
           <div class="stat-label">Days of Coverage</div>
         </div>
       </div>
@@ -66,7 +66,7 @@
     </ArticleText>
 
     <ArticleText>
-      Explore the full dataset, learn more about the movement through the <a href="https://aapf.org/" style="color: #0066cc; text-decoration: underline;">African American Policy Forum</a>, or see how activists drove the conversation on <a href="https://twitter.com/">Twitter</a>. Keep in mind that duplicates exist, classifiers may imperfectly categorize articles, and some coverage may not be captured here — yet the overall patterns reveal meaningful insight into media attention in 2015.
+      Learn more about the movement through the <a href="https://aapf.org/" style="color: #0066cc; text-decoration: underline;">African American Policy Forum</a>, or see our work on how activists drove the conversation on Twitter <a href="[Insert twitter page]" style="color: #0066cc; text-decoration: underline;">here</a>. Keep in mind that duplicates exist, classifiers may imperfectly categorize articles, and some coverage may not be captured here. For full details, including which dataset was used (deduplicated vs. content-unique), citations, and methodology for how the graphs were created—please see <a href="[insert link]" style="color: #0066cc; text-decoration: underline;">our full methodology page</a>.
     </ArticleText>
 
   {/snippet}

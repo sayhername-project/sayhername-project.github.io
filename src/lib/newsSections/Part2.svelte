@@ -45,9 +45,9 @@
   {#snippet scrolly()}
     <ArticleText>
       <h1 style="font-size: 1.5rem; font-weight: bold;">The Power Players</h1><br />
-      Across <strong>419</strong> news outlets, coverage of #SayHerName was concentrated in just a few hands.
-      The top 10 outlets published 2,118 stories — <strong>28.3%</strong> of all articles in the dataset.
-      Expanding to the top 20 brings the total to 3,149 articles, or <strong>42.1%</strong> of all coverage.
+      Across <strong>421</strong> news outlets, coverage of #SayHerName was concentrated in just a few hands.
+      The top 10 outlets published 2,121 stories — <strong>28.3%</strong> of all articles in the dataset.
+      Expanding to the top 20 brings the total to 3,155 articles, or <strong>42.0%</strong> of all coverage.
     </ArticleText>
   {/snippet}
 </Scroller>
@@ -66,7 +66,7 @@
 
   {#snippet scrolly()}
     <ArticleText>
-      The remaining 399 outlets accounted for <strong>57.9%</strong> of articles, but each with far smaller individual output,
+      The remaining 401 outlets accounted for <strong>58.0%</strong> of articles, but each with far smaller individual output,
       making their voices easier to overlook in the national conversation.
     </ArticleText>
 
