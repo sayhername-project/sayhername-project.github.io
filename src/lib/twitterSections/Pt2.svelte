@@ -155,7 +155,7 @@
     {#snippet sticky()}
         <div class="chart-container">
             <iframe 
-                src="twit-charts/top_25_hashtags_coocurr.html" 
+                src="twit-charts/top_50_cooccurring_network.html" 
                 class="chart-iframe"
                 title="Top 25 Co-Occurring Hashtag Pairs in #SayHerName Tweets"
             ></iframe>
@@ -183,7 +183,7 @@
     {/snippet}
 </Scroller>
 
-<!-- SUBSECTION: Other interesting hashtags that didn't pop up in top 25 but still had lots of usage -->
+<!-- SUBSECTION: Other interesting hashtags that didn't pop up in top 25 but still had lots of usage
 <Scroller layout="right">
     {#snippet sticky()}
         <div class="chart-container">
@@ -210,7 +210,7 @@
         <br /><br /><br /><br /><br />
 
     {/snippet}
-</Scroller>
+</Scroller> -->
 
 <style>
     .chart-container {

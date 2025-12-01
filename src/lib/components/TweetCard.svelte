@@ -3,8 +3,7 @@
 </script>
 
 <div class="tweet-card">
-    <img src="../twit-charts/twit-logo.png" alt="Twitter logo" class="tweet-photo" />
-    
+    <img src="twit-charts/twit-logo.png" alt="Twitter logo" class="tweet-photo" />
     <p class="tweet-text">
         <strong>
             {text}
@@ -18,7 +17,7 @@
 
 <style>
     .tweet-card {
-        background: #ffffff10;               /* translucent card */
+        background: #ffffff10;
         backdrop-filter: blur(6px);
         padding: 1.2rem 1.4rem;
         border-radius: 16px;

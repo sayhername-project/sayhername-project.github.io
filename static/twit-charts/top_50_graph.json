@@ -1,0 +1,4180 @@
+{
+  "nodes": [
+    {
+      "key": "alllivesmatter",
+      "attributes": {
+        "label": "#alllivesmatter",
+        "strength": 975,
+        "size": 74.69497798238238,
+        "x": -0.47657794812137366,
+        "y": 0.12692592651670973,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "anonymous",
+      "attributes": {
+        "label": "#anonymous",
+        "strength": 471,
+        "size": 53.745575711263555,
+        "x": 0.677519423631377,
+        "y": -0.44672730536102795,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "blacklivesmatter",
+      "attributes": {
+        "label": "#blacklivesmatter",
+        "strength": 64705,
+        "size": 565.6179053604343,
+        "x": -0.04821052601916802,
+        "y": 0.04326915006138264,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "blacktranslivesmatter",
+      "attributes": {
+        "label": "#blacktranslivesmatter",
+        "strength": 1523,
+        "size": 91.85639172478658,
+        "x": 0.2330438347556269,
+        "y": -0.4230398935214257,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "blacktwitter",
+      "attributes": {
+        "label": "#blacktwitter",
+        "strength": 2649,
+        "size": 119.2305612456284,
+        "x": -0.2739098604988888,
+        "y": -0.025322611943797188,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "blackwomenmatter",
+      "attributes": {
+        "label": "#blackwomenmatter",
+        "strength": 5626,
+        "size": 171.01466601487274,
+        "x": 0.15584432488499148,
+        "y": -0.14599939549453378,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "blackwomenslivesmatter",
+      "attributes": {
+        "label": "#blackwomenslivesmatter",
+        "strength": 693,
+        "size": 63.91476495678801,
+        "x": 0.6909818256236804,
+        "y": -0.18223672384016484,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "blm",
+      "attributes": {
+        "label": "#blm",
+        "strength": 875,
+        "size": 71.07687761409578,
+        "x": -0.5018983088274366,
+        "y": -0.2526416518542085,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "breakthecurfew",
+      "attributes": {
+        "label": "#breakthecurfew",
+        "strength": 1428,
+        "size": 89.13555196184122,
+        "x": 0.4014193752112796,
+        "y": -0.3297559483741018,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "doj",
+      "attributes": {
+        "label": "#doj",
+        "strength": 26786,
+        "size": 366.06143920170075,
+        "x": -0.030777874704132686,
+        "y": 0.03651119861588606,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "empire",
+      "attributes": {
+        "label": "#empire",
+        "strength": 917,
+        "size": 72.62041729079758,
+        "x": 0.5772275235601848,
+        "y": 0.35479432627808233,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "farrakhan",
+      "attributes": {
+        "label": "#farrakhan",
+        "strength": 1606,
+        "size": 94.16484560186107,
+        "x": -0.22601429971683493,
+        "y": 0.5762703262357329,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "feelthebern",
+      "attributes": {
+        "label": "#feelthebern",
+        "strength": 1568,
+        "size": 93.11555544218267,
+        "x": -0.2997200441009975,
+        "y": 0.2166438520136082,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "ferguson",
+      "attributes": {
+        "label": "#ferguson",
+        "strength": 735,
+        "size": 65.64394353159422,
+        "x": -0.6550737571051511,
+        "y": -0.03659394509303331,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "freddiegray",
+      "attributes": {
+        "label": "#freddiegray",
+        "strength": 996,
+        "size": 75.4308288874618,
+        "x": -0.6730735095865359,
+        "y": 0.12269991331622823,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "ifidieinpolicecustody",
+      "attributes": {
+        "label": "#ifidieinpolicecustody",
+        "strength": 1107,
+        "size": 79.19754094230215,
+        "x": 0.554677624231711,
+        "y": 0.026175963930864563,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "indiaclarke",
+      "attributes": {
+        "label": "#indiaclarke",
+        "strength": 845,
+        "size": 69.951544156494,
+        "x": 0.04563746341923099,
+        "y": -0.6407192760296705,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "justiceforrekia",
+      "attributes": {
+        "label": "#justiceforrekia",
+        "strength": 768,
+        "size": 66.96818842642449,
+        "x": 0.3269959604234622,
+        "y": -0.6193727566074206,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "justiceforsandrabland",
+      "attributes": {
+        "label": "#justiceforsandrabland",
+        "strength": 8846,
+        "size": 212.91698818608396,
+        "x": 0.0889615501611996,
+        "y": -0.050939986205107424,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "justiceforsandy",
+      "attributes": {
+        "label": "#justiceforsandy",
+        "strength": 3735,
+        "size": 140.45222199725822,
+        "x": 0.08204174096378747,
+        "y": 0.23860753717796768,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "justiceorelse",
+      "attributes": {
+        "label": "#justiceorelse",
+        "strength": 3106,
+        "size": 128.6092981792164,
+        "x": -0.15598781069043657,
+        "y": 0.35519554625510735,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "kindrachapman",
+      "attributes": {
+        "label": "#kindrachapman",
+        "strength": 2209,
+        "size": 109.4,
+        "x": 0.06665342493621776,
+        "y": -0.2695119557852928,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "mckinney",
+      "attributes": {
+        "label": "#mckinney",
+        "strength": 739,
+        "size": 65.80601976390003,
+        "x": 0.65271607651207,
+        "y": 0.1772051633729505,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "natashamckenna",
+      "attributes": {
+        "label": "#natashamckenna",
+        "strength": 2652,
+        "size": 119.29466006833687,
+        "x": -0.21031508082609515,
+        "y": -0.19043641163645958,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "nojusticenopeace",
+      "attributes": {
+        "label": "#nojusticenopeace",
+        "strength": 878,
+        "size": 71.18834251612785,
+        "x": 0.2134649602128727,
+        "y": 0.5833068963762729,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "nyc",
+      "attributes": {
+        "label": "#nyc",
+        "strength": 711,
+        "size": 64.6620831542829,
+        "x": -0.5007577738572606,
+        "y": -0.45597585393459855,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "oakland",
+      "attributes": {
+        "label": "#oakland",
+        "strength": 1608,
+        "size": 94.21972568535907,
+        "x": 0.4368616235941914,
+        "y": -0.18470117425937496,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "policebrutality",
+      "attributes": {
+        "label": "#policebrutality",
+        "strength": 1221,
+        "size": 82.87418292248705,
+        "x": 0.3686745028120244,
+        "y": 0.25813222634826277,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "racism",
+      "attributes": {
+        "label": "#racism",
+        "strength": 758,
+        "size": 66.56995955091931,
+        "x": -0.3474662971198108,
+        "y": -0.5313587121667186,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "ralkinajones",
+      "attributes": {
+        "label": "#ralkinajones",
+        "strength": 1024,
+        "size": 76.4,
+        "x": 0.27172909692796016,
+        "y": 0.3976296596078337,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "rekiaboyd",
+      "attributes": {
+        "label": "#rekiaboyd",
+        "strength": 1366,
+        "size": 87.31076189533584,
+        "x": -0.1954911049224713,
+        "y": -0.376951844731727,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "reprojustice",
+      "attributes": {
+        "label": "#reprojustice",
+        "strength": 423,
+        "size": 51.247320362646896,
+        "x": 0.6385941161969696,
+        "y": -0.7385027090146622,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "riseupoctober",
+      "attributes": {
+        "label": "#riseupoctober",
+        "strength": 1084,
+        "size": 78.43314158587906,
+        "x": -0.3937665234428764,
+        "y": 0.3753486055483453,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "samdubose",
+      "attributes": {
+        "label": "#samdubose",
+        "strength": 786,
+        "size": 67.67852138305523,
+        "x": 0.020000933963591507,
+        "y": 0.7436286125732954,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "sandrabland",
+      "attributes": {
+        "label": "#sandrabland",
+        "strength": 78042,
+        "size": 620.5919621993116,
+        "x": 0.005983741966330165,
+        "y": 0.05470214498587921,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "sandrawasmurdered",
+      "attributes": {
+        "label": "#sandrawasmurdered",
+        "strength": 1222,
+        "size": 82.90565648897356,
+        "x": 0.03798547561923418,
+        "y": -0.4470454345904625,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "sandyspeaks",
+      "attributes": {
+        "label": "#sandyspeaks",
+        "strength": 4060,
+        "size": 146.17988443425114,
+        "x": 0.2136004456945889,
+        "y": 0.11994790630767753,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "sandystillspeaks",
+      "attributes": {
+        "label": "#sandystillspeaks",
+        "strength": 1881,
+        "size": 101.41509314568636,
+        "x": 0.40139168461731295,
+        "y": 0.034845156675234926,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "saveourgirls",
+      "attributes": {
+        "label": "#saveourgirls",
+        "strength": 1494,
+        "size": 91.03505159638584,
+        "x": -0.3985123820580115,
+        "y": 0.5608420146933198,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "sayhername",
+      "attributes": {
+        "label": "#sayhername",
+        "strength": 111622,
+        "size": 741.0173331289542,
+        "x": 0.007953230050847523,
+        "y": -0.0052744286291231185,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "sayhisname",
+      "attributes": {
+        "label": "#sayhisname",
+        "strength": 1493,
+        "size": 91.0065879799913,
+        "x": -0.37869176047522657,
+        "y": -0.06551060595571677,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "saytheirnames",
+      "attributes": {
+        "label": "#saytheirnames",
+        "strength": 750,
+        "size": 66.24948132556828,
+        "x": -0.005113408779539935,
+        "y": 0.5686793716206807,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "serenashim",
+      "attributes": {
+        "label": "#serenashim",
+        "strength": 295,
+        "size": 43.78624088209887,
+        "x": 0.07002830276803686,
+        "y": -1.0,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "staywoke",
+      "attributes": {
+        "label": "#staywoke",
+        "strength": 829,
+        "size": 69.34319221510707,
+        "x": 0.39771520182010156,
+        "y": 0.5108059562661326,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "tamirrice",
+      "attributes": {
+        "label": "#tamirrice",
+        "strength": 1013,
+        "size": 76.02085403649401,
+        "x": -0.5772457072118455,
+        "y": 0.2943874818933379,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "thetime",
+      "attributes": {
+        "label": "#thetime",
+        "strength": 1406,
+        "size": 88.49266634071178,
+        "x": -0.19115860348718422,
+        "y": 0.7111566463592979,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "thismeanswar",
+      "attributes": {
+        "label": "#thismeanswar",
+        "strength": 667,
+        "size": 62.817954908637816,
+        "x": -0.6735848913314498,
+        "y": -0.20517875170916358,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "translivesmatter",
+      "attributes": {
+        "label": "#translivesmatter",
+        "strength": 725,
+        "size": 65.23681287847955,
+        "x": -0.17360473233681056,
+        "y": -0.6786623559643532,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "whathappenedtosandrabland",
+      "attributes": {
+        "label": "#whathappenedtosandrabland",
+        "strength": 6584,
+        "size": 184.512072420887,
+        "x": 0.19878901780547323,
+        "y": 0.09206527122978256,
+        "color": "#1f77b4"
+      }
+    },
+    {
+      "key": "whytheyshootme",
+      "attributes": {
+        "label": "#whytheyshootme",
+        "strength": 1056,
+        "size": 77.49153796079646,
+        "x": -0.4495402771448529,
+        "y": 0.7226828784422863,
+        "color": "#1f77b4"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "e0",
+      "source": "alllivesmatter",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 386
+      }
+    },
+    {
+      "key": "e1",
+      "source": "alllivesmatter",
+      "target": "blacklivesmatter",
+      "attributes": {
+        "weight": 242
+      }
+    },
+    {
+      "key": "e2",
+      "source": "alllivesmatter",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 190
+      }
+    },
+    {
+      "key": "e3",
+      "source": "alllivesmatter",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 21
+      }
+    },
+    {
+      "key": "e4",
+      "source": "alllivesmatter",
+      "target": "doj",
+      "attributes": {
+        "weight": 18
+      }
+    },
+    {
+      "key": "e5",
+      "source": "alllivesmatter",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 14
+      }
+    },
+    {
+      "key": "e6",
+      "source": "alllivesmatter",
+      "target": "blacktwitter",
+      "attributes": {
+        "weight": 14
+      }
+    },
+    {
+      "key": "e7",
+      "source": "alllivesmatter",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 14
+      }
+    },
+    {
+      "key": "e8",
+      "source": "alllivesmatter",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 12
+      }
+    },
+    {
+      "key": "e9",
+      "source": "alllivesmatter",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e10",
+      "source": "alllivesmatter",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 9
+      }
+    },
+    {
+      "key": "e11",
+      "source": "alllivesmatter",
+      "target": "blackwomenmatter",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e12",
+      "source": "alllivesmatter",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e13",
+      "source": "alllivesmatter",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e14",
+      "source": "alllivesmatter",
+      "target": "nojusticenopeace",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e15",
+      "source": "alllivesmatter",
+      "target": "ifidieinpolicecustody",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e16",
+      "source": "alllivesmatter",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e17",
+      "source": "alllivesmatter",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e18",
+      "source": "alllivesmatter",
+      "target": "indiaclarke",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e19",
+      "source": "alllivesmatter",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e20",
+      "source": "alllivesmatter",
+      "target": "sandrawasmurdered",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e21",
+      "source": "alllivesmatter",
+      "target": "ferguson",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e22",
+      "source": "anonymous",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 199
+      }
+    },
+    {
+      "key": "e23",
+      "source": "anonymous",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 145
+      }
+    },
+    {
+      "key": "e24",
+      "source": "anonymous",
+      "target": "blacklivesmatter",
+      "attributes": {
+        "weight": 52
+      }
+    },
+    {
+      "key": "e25",
+      "source": "anonymous",
+      "target": "blacktwitter",
+      "attributes": {
+        "weight": 20
+      }
+    },
+    {
+      "key": "e26",
+      "source": "anonymous",
+      "target": "serenashim",
+      "attributes": {
+        "weight": 16
+      }
+    },
+    {
+      "key": "e27",
+      "source": "anonymous",
+      "target": "sandrawasmurdered",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e28",
+      "source": "anonymous",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e29",
+      "source": "anonymous",
+      "target": "breakthecurfew",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e30",
+      "source": "anonymous",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e31",
+      "source": "anonymous",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e32",
+      "source": "anonymous",
+      "target": "blackwomenslivesmatter",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e33",
+      "source": "anonymous",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e34",
+      "source": "blacklivesmatter",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 28310
+      }
+    },
+    {
+      "key": "e35",
+      "source": "blacklivesmatter",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 16512
+      }
+    },
+    {
+      "key": "e36",
+      "source": "blacklivesmatter",
+      "target": "doj",
+      "attributes": {
+        "weight": 8546
+      }
+    },
+    {
+      "key": "e37",
+      "source": "blacklivesmatter",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 1056
+      }
+    },
+    {
+      "key": "e38",
+      "source": "blacklivesmatter",
+      "target": "blackwomenmatter",
+      "attributes": {
+        "weight": 899
+      }
+    },
+    {
+      "key": "e39",
+      "source": "blacklivesmatter",
+      "target": "blacktwitter",
+      "attributes": {
+        "weight": 734
+      }
+    },
+    {
+      "key": "e40",
+      "source": "blacklivesmatter",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 674
+      }
+    },
+    {
+      "key": "e41",
+      "source": "blacklivesmatter",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 611
+      }
+    },
+    {
+      "key": "e42",
+      "source": "blacklivesmatter",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 498
+      }
+    },
+    {
+      "key": "e43",
+      "source": "blacklivesmatter",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 383
+      }
+    },
+    {
+      "key": "e44",
+      "source": "blacklivesmatter",
+      "target": "feelthebern",
+      "attributes": {
+        "weight": 373
+      }
+    },
+    {
+      "key": "e45",
+      "source": "blacklivesmatter",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 363
+      }
+    },
+    {
+      "key": "e46",
+      "source": "blacklivesmatter",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 349
+      }
+    },
+    {
+      "key": "e47",
+      "source": "blacklivesmatter",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 260
+      }
+    },
+    {
+      "key": "e48",
+      "source": "blacklivesmatter",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 247
+      }
+    },
+    {
+      "key": "e49",
+      "source": "blacklivesmatter",
+      "target": "farrakhan",
+      "attributes": {
+        "weight": 241
+      }
+    },
+    {
+      "key": "e50",
+      "source": "blacklivesmatter",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 223
+      }
+    },
+    {
+      "key": "e51",
+      "source": "blacklivesmatter",
+      "target": "saveourgirls",
+      "attributes": {
+        "weight": 220
+      }
+    },
+    {
+      "key": "e52",
+      "source": "blacklivesmatter",
+      "target": "nojusticenopeace",
+      "attributes": {
+        "weight": 216
+      }
+    },
+    {
+      "key": "e53",
+      "source": "blacklivesmatter",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 213
+      }
+    },
+    {
+      "key": "e54",
+      "source": "blacklivesmatter",
+      "target": "thismeanswar",
+      "attributes": {
+        "weight": 205
+      }
+    },
+    {
+      "key": "e55",
+      "source": "blacklivesmatter",
+      "target": "thetime",
+      "attributes": {
+        "weight": 204
+      }
+    },
+    {
+      "key": "e56",
+      "source": "blacklivesmatter",
+      "target": "oakland",
+      "attributes": {
+        "weight": 190
+      }
+    },
+    {
+      "key": "e57",
+      "source": "blacklivesmatter",
+      "target": "ferguson",
+      "attributes": {
+        "weight": 178
+      }
+    },
+    {
+      "key": "e58",
+      "source": "blacklivesmatter",
+      "target": "nyc",
+      "attributes": {
+        "weight": 172
+      }
+    },
+    {
+      "key": "e59",
+      "source": "blacklivesmatter",
+      "target": "blm",
+      "attributes": {
+        "weight": 169
+      }
+    },
+    {
+      "key": "e60",
+      "source": "blacklivesmatter",
+      "target": "freddiegray",
+      "attributes": {
+        "weight": 168
+      }
+    },
+    {
+      "key": "e61",
+      "source": "blacklivesmatter",
+      "target": "racism",
+      "attributes": {
+        "weight": 165
+      }
+    },
+    {
+      "key": "e62",
+      "source": "blacklivesmatter",
+      "target": "blacktranslivesmatter",
+      "attributes": {
+        "weight": 157
+      }
+    },
+    {
+      "key": "e63",
+      "source": "blacklivesmatter",
+      "target": "breakthecurfew",
+      "attributes": {
+        "weight": 156
+      }
+    },
+    {
+      "key": "e64",
+      "source": "blacklivesmatter",
+      "target": "ifidieinpolicecustody",
+      "attributes": {
+        "weight": 155
+      }
+    },
+    {
+      "key": "e65",
+      "source": "blacklivesmatter",
+      "target": "whytheyshootme",
+      "attributes": {
+        "weight": 154
+      }
+    },
+    {
+      "key": "e66",
+      "source": "blacklivesmatter",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 152
+      }
+    },
+    {
+      "key": "e67",
+      "source": "blacklivesmatter",
+      "target": "translivesmatter",
+      "attributes": {
+        "weight": 145
+      }
+    },
+    {
+      "key": "e68",
+      "source": "blacklivesmatter",
+      "target": "ralkinajones",
+      "attributes": {
+        "weight": 143
+      }
+    },
+    {
+      "key": "e69",
+      "source": "blacklivesmatter",
+      "target": "mckinney",
+      "attributes": {
+        "weight": 137
+      }
+    },
+    {
+      "key": "e70",
+      "source": "blacklivesmatter",
+      "target": "sandrawasmurdered",
+      "attributes": {
+        "weight": 136
+      }
+    },
+    {
+      "key": "e71",
+      "source": "blacklivesmatter",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 126
+      }
+    },
+    {
+      "key": "e72",
+      "source": "blacklivesmatter",
+      "target": "blackwomenslivesmatter",
+      "attributes": {
+        "weight": 111
+      }
+    },
+    {
+      "key": "e73",
+      "source": "blacklivesmatter",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 109
+      }
+    },
+    {
+      "key": "e74",
+      "source": "blacklivesmatter",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 103
+      }
+    },
+    {
+      "key": "e75",
+      "source": "blacklivesmatter",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 85
+      }
+    },
+    {
+      "key": "e76",
+      "source": "blacklivesmatter",
+      "target": "indiaclarke",
+      "attributes": {
+        "weight": 75
+      }
+    },
+    {
+      "key": "e77",
+      "source": "blacklivesmatter",
+      "target": "empire",
+      "attributes": {
+        "weight": 43
+      }
+    },
+    {
+      "key": "e78",
+      "source": "blacklivesmatter",
+      "target": "justiceforrekia",
+      "attributes": {
+        "weight": 25
+      }
+    },
+    {
+      "key": "e79",
+      "source": "blacklivesmatter",
+      "target": "reprojustice",
+      "attributes": {
+        "weight": 20
+      }
+    },
+    {
+      "key": "e80",
+      "source": "blacktranslivesmatter",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 1098
+      }
+    },
+    {
+      "key": "e81",
+      "source": "blacktranslivesmatter",
+      "target": "reprojustice",
+      "attributes": {
+        "weight": 107
+      }
+    },
+    {
+      "key": "e82",
+      "source": "blacktranslivesmatter",
+      "target": "indiaclarke",
+      "attributes": {
+        "weight": 54
+      }
+    },
+    {
+      "key": "e83",
+      "source": "blacktranslivesmatter",
+      "target": "translivesmatter",
+      "attributes": {
+        "weight": 35
+      }
+    },
+    {
+      "key": "e84",
+      "source": "blacktranslivesmatter",
+      "target": "blackwomenmatter",
+      "attributes": {
+        "weight": 33
+      }
+    },
+    {
+      "key": "e85",
+      "source": "blacktranslivesmatter",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 11
+      }
+    },
+    {
+      "key": "e86",
+      "source": "blacktranslivesmatter",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e87",
+      "source": "blacktranslivesmatter",
+      "target": "blackwomenslivesmatter",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e88",
+      "source": "blacktranslivesmatter",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e89",
+      "source": "blacktranslivesmatter",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e90",
+      "source": "blacktwitter",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 968
+      }
+    },
+    {
+      "key": "e91",
+      "source": "blacktwitter",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 255
+      }
+    },
+    {
+      "key": "e92",
+      "source": "blacktwitter",
+      "target": "freddiegray",
+      "attributes": {
+        "weight": 192
+      }
+    },
+    {
+      "key": "e93",
+      "source": "blacktwitter",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 107
+      }
+    },
+    {
+      "key": "e94",
+      "source": "blacktwitter",
+      "target": "racism",
+      "attributes": {
+        "weight": 102
+      }
+    },
+    {
+      "key": "e95",
+      "source": "blacktwitter",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 57
+      }
+    },
+    {
+      "key": "e96",
+      "source": "blacktwitter",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 33
+      }
+    },
+    {
+      "key": "e97",
+      "source": "blacktwitter",
+      "target": "feelthebern",
+      "attributes": {
+        "weight": 29
+      }
+    },
+    {
+      "key": "e98",
+      "source": "blacktwitter",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 27
+      }
+    },
+    {
+      "key": "e99",
+      "source": "blacktwitter",
+      "target": "ferguson",
+      "attributes": {
+        "weight": 19
+      }
+    },
+    {
+      "key": "e100",
+      "source": "blacktwitter",
+      "target": "blackwomenmatter",
+      "attributes": {
+        "weight": 11
+      }
+    },
+    {
+      "key": "e101",
+      "source": "blacktwitter",
+      "target": "blm",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e102",
+      "source": "blacktwitter",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e103",
+      "source": "blacktwitter",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e104",
+      "source": "blacktwitter",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e105",
+      "source": "blacktwitter",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e106",
+      "source": "blacktwitter",
+      "target": "mckinney",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e107",
+      "source": "blacktwitter",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e108",
+      "source": "blacktwitter",
+      "target": "ifidieinpolicecustody",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e109",
+      "source": "blacktwitter",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e110",
+      "source": "blacktwitter",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e111",
+      "source": "blacktwitter",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e112",
+      "source": "blacktwitter",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e113",
+      "source": "blacktwitter",
+      "target": "thismeanswar",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e114",
+      "source": "blacktwitter",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e115",
+      "source": "blacktwitter",
+      "target": "sandrawasmurdered",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e116",
+      "source": "blackwomenmatter",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 3177
+      }
+    },
+    {
+      "key": "e117",
+      "source": "blackwomenmatter",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 540
+      }
+    },
+    {
+      "key": "e118",
+      "source": "blackwomenmatter",
+      "target": "justiceforrekia",
+      "attributes": {
+        "weight": 216
+      }
+    },
+    {
+      "key": "e119",
+      "source": "blackwomenmatter",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 104
+      }
+    },
+    {
+      "key": "e120",
+      "source": "blackwomenmatter",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 68
+      }
+    },
+    {
+      "key": "e121",
+      "source": "blackwomenmatter",
+      "target": "breakthecurfew",
+      "attributes": {
+        "weight": 55
+      }
+    },
+    {
+      "key": "e122",
+      "source": "blackwomenmatter",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 51
+      }
+    },
+    {
+      "key": "e123",
+      "source": "blackwomenmatter",
+      "target": "blackwomenslivesmatter",
+      "attributes": {
+        "weight": 47
+      }
+    },
+    {
+      "key": "e124",
+      "source": "blackwomenmatter",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 45
+      }
+    },
+    {
+      "key": "e125",
+      "source": "blackwomenmatter",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 45
+      }
+    },
+    {
+      "key": "e126",
+      "source": "blackwomenmatter",
+      "target": "oakland",
+      "attributes": {
+        "weight": 44
+      }
+    },
+    {
+      "key": "e127",
+      "source": "blackwomenmatter",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 40
+      }
+    },
+    {
+      "key": "e128",
+      "source": "blackwomenmatter",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 36
+      }
+    },
+    {
+      "key": "e129",
+      "source": "blackwomenmatter",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 28
+      }
+    },
+    {
+      "key": "e130",
+      "source": "blackwomenmatter",
+      "target": "ralkinajones",
+      "attributes": {
+        "weight": 21
+      }
+    },
+    {
+      "key": "e131",
+      "source": "blackwomenmatter",
+      "target": "reprojustice",
+      "attributes": {
+        "weight": 19
+      }
+    },
+    {
+      "key": "e132",
+      "source": "blackwomenmatter",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 15
+      }
+    },
+    {
+      "key": "e133",
+      "source": "blackwomenmatter",
+      "target": "nojusticenopeace",
+      "attributes": {
+        "weight": 13
+      }
+    },
+    {
+      "key": "e134",
+      "source": "blackwomenmatter",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 13
+      }
+    },
+    {
+      "key": "e135",
+      "source": "blackwomenmatter",
+      "target": "empire",
+      "attributes": {
+        "weight": 12
+      }
+    },
+    {
+      "key": "e136",
+      "source": "blackwomenmatter",
+      "target": "ferguson",
+      "attributes": {
+        "weight": 12
+      }
+    },
+    {
+      "key": "e137",
+      "source": "blackwomenmatter",
+      "target": "mckinney",
+      "attributes": {
+        "weight": 11
+      }
+    },
+    {
+      "key": "e138",
+      "source": "blackwomenmatter",
+      "target": "blm",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e139",
+      "source": "blackwomenmatter",
+      "target": "sandrawasmurdered",
+      "attributes": {
+        "weight": 9
+      }
+    },
+    {
+      "key": "e140",
+      "source": "blackwomenmatter",
+      "target": "ifidieinpolicecustody",
+      "attributes": {
+        "weight": 9
+      }
+    },
+    {
+      "key": "e141",
+      "source": "blackwomenmatter",
+      "target": "nyc",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e142",
+      "source": "blackwomenmatter",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e143",
+      "source": "blackwomenmatter",
+      "target": "freddiegray",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e144",
+      "source": "blackwomenmatter",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e145",
+      "source": "blackwomenmatter",
+      "target": "indiaclarke",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e146",
+      "source": "blackwomenmatter",
+      "target": "feelthebern",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e147",
+      "source": "blackwomenmatter",
+      "target": "translivesmatter",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e148",
+      "source": "blackwomenmatter",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e149",
+      "source": "blackwomenslivesmatter",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 365
+      }
+    },
+    {
+      "key": "e150",
+      "source": "blackwomenslivesmatter",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 63
+      }
+    },
+    {
+      "key": "e151",
+      "source": "blackwomenslivesmatter",
+      "target": "reprojustice",
+      "attributes": {
+        "weight": 15
+      }
+    },
+    {
+      "key": "e152",
+      "source": "blackwomenslivesmatter",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 15
+      }
+    },
+    {
+      "key": "e153",
+      "source": "blackwomenslivesmatter",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 13
+      }
+    },
+    {
+      "key": "e154",
+      "source": "blackwomenslivesmatter",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e155",
+      "source": "blackwomenslivesmatter",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e156",
+      "source": "blackwomenslivesmatter",
+      "target": "oakland",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e157",
+      "source": "blackwomenslivesmatter",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e158",
+      "source": "blackwomenslivesmatter",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e159",
+      "source": "blackwomenslivesmatter",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e160",
+      "source": "blackwomenslivesmatter",
+      "target": "translivesmatter",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e161",
+      "source": "blackwomenslivesmatter",
+      "target": "nyc",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e162",
+      "source": "blm",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 421
+      }
+    },
+    {
+      "key": "e163",
+      "source": "blm",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 91
+      }
+    },
+    {
+      "key": "e164",
+      "source": "blm",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 25
+      }
+    },
+    {
+      "key": "e165",
+      "source": "blm",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 22
+      }
+    },
+    {
+      "key": "e166",
+      "source": "blm",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 19
+      }
+    },
+    {
+      "key": "e167",
+      "source": "blm",
+      "target": "feelthebern",
+      "attributes": {
+        "weight": 18
+      }
+    },
+    {
+      "key": "e168",
+      "source": "blm",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 15
+      }
+    },
+    {
+      "key": "e169",
+      "source": "blm",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 14
+      }
+    },
+    {
+      "key": "e170",
+      "source": "blm",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 13
+      }
+    },
+    {
+      "key": "e171",
+      "source": "blm",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 12
+      }
+    },
+    {
+      "key": "e172",
+      "source": "blm",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e173",
+      "source": "blm",
+      "target": "ferguson",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e174",
+      "source": "blm",
+      "target": "ralkinajones",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e175",
+      "source": "blm",
+      "target": "doj",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e176",
+      "source": "blm",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e177",
+      "source": "blm",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e178",
+      "source": "blm",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e179",
+      "source": "breakthecurfew",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 849
+      }
+    },
+    {
+      "key": "e180",
+      "source": "breakthecurfew",
+      "target": "oakland",
+      "attributes": {
+        "weight": 349
+      }
+    },
+    {
+      "key": "e181",
+      "source": "breakthecurfew",
+      "target": "ferguson",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e182",
+      "source": "breakthecurfew",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e183",
+      "source": "breakthecurfew",
+      "target": "mckinney",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e184",
+      "source": "doj",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 9172
+      }
+    },
+    {
+      "key": "e185",
+      "source": "doj",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 9018
+      }
+    },
+    {
+      "key": "e186",
+      "source": "doj",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 12
+      }
+    },
+    {
+      "key": "e187",
+      "source": "doj",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e188",
+      "source": "doj",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e189",
+      "source": "empire",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 422
+      }
+    },
+    {
+      "key": "e190",
+      "source": "empire",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 214
+      }
+    },
+    {
+      "key": "e191",
+      "source": "empire",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 161
+      }
+    },
+    {
+      "key": "e192",
+      "source": "empire",
+      "target": "ifidieinpolicecustody",
+      "attributes": {
+        "weight": 35
+      }
+    },
+    {
+      "key": "e193",
+      "source": "empire",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 14
+      }
+    },
+    {
+      "key": "e194",
+      "source": "empire",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e195",
+      "source": "empire",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e196",
+      "source": "empire",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e197",
+      "source": "farrakhan",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 250
+      }
+    },
+    {
+      "key": "e198",
+      "source": "farrakhan",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 248
+      }
+    },
+    {
+      "key": "e199",
+      "source": "farrakhan",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 243
+      }
+    },
+    {
+      "key": "e200",
+      "source": "farrakhan",
+      "target": "saveourgirls",
+      "attributes": {
+        "weight": 223
+      }
+    },
+    {
+      "key": "e201",
+      "source": "farrakhan",
+      "target": "thetime",
+      "attributes": {
+        "weight": 206
+      }
+    },
+    {
+      "key": "e202",
+      "source": "farrakhan",
+      "target": "whytheyshootme",
+      "attributes": {
+        "weight": 151
+      }
+    },
+    {
+      "key": "e203",
+      "source": "farrakhan",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 44
+      }
+    },
+    {
+      "key": "e204",
+      "source": "feelthebern",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 689
+      }
+    },
+    {
+      "key": "e205",
+      "source": "feelthebern",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 293
+      }
+    },
+    {
+      "key": "e206",
+      "source": "feelthebern",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 35
+      }
+    },
+    {
+      "key": "e207",
+      "source": "feelthebern",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 34
+      }
+    },
+    {
+      "key": "e208",
+      "source": "feelthebern",
+      "target": "freddiegray",
+      "attributes": {
+        "weight": 22
+      }
+    },
+    {
+      "key": "e209",
+      "source": "feelthebern",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 21
+      }
+    },
+    {
+      "key": "e210",
+      "source": "feelthebern",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 12
+      }
+    },
+    {
+      "key": "e211",
+      "source": "feelthebern",
+      "target": "ferguson",
+      "attributes": {
+        "weight": 9
+      }
+    },
+    {
+      "key": "e212",
+      "source": "feelthebern",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 9
+      }
+    },
+    {
+      "key": "e213",
+      "source": "feelthebern",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e214",
+      "source": "feelthebern",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e215",
+      "source": "feelthebern",
+      "target": "ifidieinpolicecustody",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e216",
+      "source": "feelthebern",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e217",
+      "source": "ferguson",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 328
+      }
+    },
+    {
+      "key": "e218",
+      "source": "ferguson",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 61
+      }
+    },
+    {
+      "key": "e219",
+      "source": "ferguson",
+      "target": "freddiegray",
+      "attributes": {
+        "weight": 23
+      }
+    },
+    {
+      "key": "e220",
+      "source": "ferguson",
+      "target": "mckinney",
+      "attributes": {
+        "weight": 17
+      }
+    },
+    {
+      "key": "e221",
+      "source": "ferguson",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 16
+      }
+    },
+    {
+      "key": "e222",
+      "source": "ferguson",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e223",
+      "source": "ferguson",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e224",
+      "source": "ferguson",
+      "target": "oakland",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e225",
+      "source": "ferguson",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e226",
+      "source": "ferguson",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e227",
+      "source": "ferguson",
+      "target": "nyc",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e228",
+      "source": "ferguson",
+      "target": "racism",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e229",
+      "source": "ferguson",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e230",
+      "source": "ferguson",
+      "target": "nojusticenopeace",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e231",
+      "source": "freddiegray",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 357
+      }
+    },
+    {
+      "key": "e232",
+      "source": "freddiegray",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 72
+      }
+    },
+    {
+      "key": "e233",
+      "source": "freddiegray",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 59
+      }
+    },
+    {
+      "key": "e234",
+      "source": "freddiegray",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 53
+      }
+    },
+    {
+      "key": "e235",
+      "source": "freddiegray",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 17
+      }
+    },
+    {
+      "key": "e236",
+      "source": "freddiegray",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e237",
+      "source": "freddiegray",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e238",
+      "source": "freddiegray",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e239",
+      "source": "freddiegray",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e240",
+      "source": "ifidieinpolicecustody",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 469
+      }
+    },
+    {
+      "key": "e241",
+      "source": "ifidieinpolicecustody",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 268
+      }
+    },
+    {
+      "key": "e242",
+      "source": "ifidieinpolicecustody",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 57
+      }
+    },
+    {
+      "key": "e243",
+      "source": "ifidieinpolicecustody",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 28
+      }
+    },
+    {
+      "key": "e244",
+      "source": "ifidieinpolicecustody",
+      "target": "justiceforsandrabland",
+      "attributes": {
+        "weight": 21
+      }
+    },
+    {
+      "key": "e245",
+      "source": "ifidieinpolicecustody",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 21
+      }
+    },
+    {
+      "key": "e246",
+      "source": "ifidieinpolicecustody",
+      "target": "ralkinajones",
+      "attributes": {
+        "weight": 11
+      }
+    },
+    {
+      "key": "e247",
+      "source": "ifidieinpolicecustody",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e248",
+      "source": "ifidieinpolicecustody",
+      "target": "reprojustice",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e249",
+      "source": "ifidieinpolicecustody",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e250",
+      "source": "ifidieinpolicecustody",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e251",
+      "source": "ifidieinpolicecustody",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e252",
+      "source": "indiaclarke",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 526
+      }
+    },
+    {
+      "key": "e253",
+      "source": "indiaclarke",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 85
+      }
+    },
+    {
+      "key": "e254",
+      "source": "indiaclarke",
+      "target": "translivesmatter",
+      "attributes": {
+        "weight": 43
+      }
+    },
+    {
+      "key": "e255",
+      "source": "indiaclarke",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 35
+      }
+    },
+    {
+      "key": "e256",
+      "source": "indiaclarke",
+      "target": "nyc",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e257",
+      "source": "indiaclarke",
+      "target": "reprojustice",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e258",
+      "source": "indiaclarke",
+      "target": "ralkinajones",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e259",
+      "source": "indiaclarke",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e260",
+      "source": "justiceforrekia",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 497
+      }
+    },
+    {
+      "key": "e261",
+      "source": "justiceforrekia",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 20
+      }
+    },
+    {
+      "key": "e262",
+      "source": "justiceforrekia",
+      "target": "oakland",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e263",
+      "source": "justiceforsandrabland",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 3989
+      }
+    },
+    {
+      "key": "e264",
+      "source": "justiceforsandrabland",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 2167
+      }
+    },
+    {
+      "key": "e265",
+      "source": "justiceforsandrabland",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 552
+      }
+    },
+    {
+      "key": "e266",
+      "source": "justiceforsandrabland",
+      "target": "justiceforsandy",
+      "attributes": {
+        "weight": 222
+      }
+    },
+    {
+      "key": "e267",
+      "source": "justiceforsandrabland",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 147
+      }
+    },
+    {
+      "key": "e268",
+      "source": "justiceforsandrabland",
+      "target": "racism",
+      "attributes": {
+        "weight": 106
+      }
+    },
+    {
+      "key": "e269",
+      "source": "justiceforsandrabland",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 101
+      }
+    },
+    {
+      "key": "e270",
+      "source": "justiceforsandrabland",
+      "target": "sandrawasmurdered",
+      "attributes": {
+        "weight": 98
+      }
+    },
+    {
+      "key": "e271",
+      "source": "justiceforsandrabland",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 60
+      }
+    },
+    {
+      "key": "e272",
+      "source": "justiceforsandrabland",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 44
+      }
+    },
+    {
+      "key": "e273",
+      "source": "justiceforsandrabland",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 22
+      }
+    },
+    {
+      "key": "e274",
+      "source": "justiceforsandrabland",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 15
+      }
+    },
+    {
+      "key": "e275",
+      "source": "justiceforsandrabland",
+      "target": "nojusticenopeace",
+      "attributes": {
+        "weight": 11
+      }
+    },
+    {
+      "key": "e276",
+      "source": "justiceforsandrabland",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e277",
+      "source": "justiceforsandrabland",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e278",
+      "source": "justiceforsandy",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 1538
+      }
+    },
+    {
+      "key": "e279",
+      "source": "justiceforsandy",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 895
+      }
+    },
+    {
+      "key": "e280",
+      "source": "justiceforsandy",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 277
+      }
+    },
+    {
+      "key": "e281",
+      "source": "justiceforsandy",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 222
+      }
+    },
+    {
+      "key": "e282",
+      "source": "justiceforsandy",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 64
+      }
+    },
+    {
+      "key": "e283",
+      "source": "justiceforsandy",
+      "target": "sandrawasmurdered",
+      "attributes": {
+        "weight": 20
+      }
+    },
+    {
+      "key": "e284",
+      "source": "justiceforsandy",
+      "target": "justiceorelse",
+      "attributes": {
+        "weight": 16
+      }
+    },
+    {
+      "key": "e285",
+      "source": "justiceforsandy",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 11
+      }
+    },
+    {
+      "key": "e286",
+      "source": "justiceforsandy",
+      "target": "nojusticenopeace",
+      "attributes": {
+        "weight": 11
+      }
+    },
+    {
+      "key": "e287",
+      "source": "justiceforsandy",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e288",
+      "source": "justiceforsandy",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e289",
+      "source": "justiceforsandy",
+      "target": "thismeanswar",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e290",
+      "source": "justiceforsandy",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e291",
+      "source": "justiceorelse",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 846
+      }
+    },
+    {
+      "key": "e292",
+      "source": "justiceorelse",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 484
+      }
+    },
+    {
+      "key": "e293",
+      "source": "justiceorelse",
+      "target": "saveourgirls",
+      "attributes": {
+        "weight": 223
+      }
+    },
+    {
+      "key": "e294",
+      "source": "justiceorelse",
+      "target": "thetime",
+      "attributes": {
+        "weight": 206
+      }
+    },
+    {
+      "key": "e295",
+      "source": "justiceorelse",
+      "target": "whytheyshootme",
+      "attributes": {
+        "weight": 151
+      }
+    },
+    {
+      "key": "e296",
+      "source": "justiceorelse",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 48
+      }
+    },
+    {
+      "key": "e297",
+      "source": "justiceorelse",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 46
+      }
+    },
+    {
+      "key": "e298",
+      "source": "justiceorelse",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 43
+      }
+    },
+    {
+      "key": "e299",
+      "source": "justiceorelse",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 23
+      }
+    },
+    {
+      "key": "e300",
+      "source": "justiceorelse",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 19
+      }
+    },
+    {
+      "key": "e301",
+      "source": "justiceorelse",
+      "target": "kindrachapman",
+      "attributes": {
+        "weight": 16
+      }
+    },
+    {
+      "key": "e302",
+      "source": "justiceorelse",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 16
+      }
+    },
+    {
+      "key": "e303",
+      "source": "justiceorelse",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 14
+      }
+    },
+    {
+      "key": "e304",
+      "source": "justiceorelse",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 13
+      }
+    },
+    {
+      "key": "e305",
+      "source": "justiceorelse",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 9
+      }
+    },
+    {
+      "key": "e306",
+      "source": "justiceorelse",
+      "target": "ralkinajones",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e307",
+      "source": "justiceorelse",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e308",
+      "source": "justiceorelse",
+      "target": "nojusticenopeace",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e309",
+      "source": "kindrachapman",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 1041
+      }
+    },
+    {
+      "key": "e310",
+      "source": "kindrachapman",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 588
+      }
+    },
+    {
+      "key": "e311",
+      "source": "kindrachapman",
+      "target": "ralkinajones",
+      "attributes": {
+        "weight": 88
+      }
+    },
+    {
+      "key": "e312",
+      "source": "kindrachapman",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 23
+      }
+    },
+    {
+      "key": "e313",
+      "source": "kindrachapman",
+      "target": "natashamckenna",
+      "attributes": {
+        "weight": 18
+      }
+    },
+    {
+      "key": "e314",
+      "source": "kindrachapman",
+      "target": "nyc",
+      "attributes": {
+        "weight": 17
+      }
+    },
+    {
+      "key": "e315",
+      "source": "kindrachapman",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 12
+      }
+    },
+    {
+      "key": "e316",
+      "source": "kindrachapman",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 9
+      }
+    },
+    {
+      "key": "e317",
+      "source": "kindrachapman",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 9
+      }
+    },
+    {
+      "key": "e318",
+      "source": "kindrachapman",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e319",
+      "source": "kindrachapman",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e320",
+      "source": "kindrachapman",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e321",
+      "source": "kindrachapman",
+      "target": "nojusticenopeace",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e322",
+      "source": "kindrachapman",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e323",
+      "source": "mckinney",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 545
+      }
+    },
+    {
+      "key": "e324",
+      "source": "mckinney",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e325",
+      "source": "mckinney",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e326",
+      "source": "mckinney",
+      "target": "reprojustice",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e327",
+      "source": "mckinney",
+      "target": "nojusticenopeace",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e328",
+      "source": "natashamckenna",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 1489
+      }
+    },
+    {
+      "key": "e329",
+      "source": "natashamckenna",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 98
+      }
+    },
+    {
+      "key": "e330",
+      "source": "natashamckenna",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 64
+      }
+    },
+    {
+      "key": "e331",
+      "source": "natashamckenna",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 23
+      }
+    },
+    {
+      "key": "e332",
+      "source": "natashamckenna",
+      "target": "nyc",
+      "attributes": {
+        "weight": 20
+      }
+    },
+    {
+      "key": "e333",
+      "source": "natashamckenna",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 17
+      }
+    },
+    {
+      "key": "e334",
+      "source": "natashamckenna",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 14
+      }
+    },
+    {
+      "key": "e335",
+      "source": "natashamckenna",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e336",
+      "source": "natashamckenna",
+      "target": "ralkinajones",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e337",
+      "source": "natashamckenna",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e338",
+      "source": "nojusticenopeace",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 332
+      }
+    },
+    {
+      "key": "e339",
+      "source": "nojusticenopeace",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 241
+      }
+    },
+    {
+      "key": "e340",
+      "source": "nojusticenopeace",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 13
+      }
+    },
+    {
+      "key": "e341",
+      "source": "nojusticenopeace",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e342",
+      "source": "nojusticenopeace",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e343",
+      "source": "nojusticenopeace",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e344",
+      "source": "nojusticenopeace",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e345",
+      "source": "nojusticenopeace",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e346",
+      "source": "nojusticenopeace",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e347",
+      "source": "nyc",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 330
+      }
+    },
+    {
+      "key": "e348",
+      "source": "nyc",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 134
+      }
+    },
+    {
+      "key": "e349",
+      "source": "nyc",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e350",
+      "source": "nyc",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e351",
+      "source": "nyc",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e352",
+      "source": "oakland",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 969
+      }
+    },
+    {
+      "key": "e353",
+      "source": "oakland",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 20
+      }
+    },
+    {
+      "key": "e354",
+      "source": "oakland",
+      "target": "policebrutality",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e355",
+      "source": "oakland",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e356",
+      "source": "policebrutality",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 510
+      }
+    },
+    {
+      "key": "e357",
+      "source": "policebrutality",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 194
+      }
+    },
+    {
+      "key": "e358",
+      "source": "policebrutality",
+      "target": "racism",
+      "attributes": {
+        "weight": 13
+      }
+    },
+    {
+      "key": "e359",
+      "source": "policebrutality",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 13
+      }
+    },
+    {
+      "key": "e360",
+      "source": "policebrutality",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 13
+      }
+    },
+    {
+      "key": "e361",
+      "source": "policebrutality",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e362",
+      "source": "policebrutality",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e363",
+      "source": "policebrutality",
+      "target": "ralkinajones",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e364",
+      "source": "policebrutality",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 7
+      }
+    },
+    {
+      "key": "e365",
+      "source": "policebrutality",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e366",
+      "source": "policebrutality",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e367",
+      "source": "policebrutality",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e368",
+      "source": "policebrutality",
+      "target": "sandrawasmurdered",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e369",
+      "source": "policebrutality",
+      "target": "reprojustice",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e370",
+      "source": "policebrutality",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e371",
+      "source": "racism",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 218
+      }
+    },
+    {
+      "key": "e372",
+      "source": "racism",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 141
+      }
+    },
+    {
+      "key": "e373",
+      "source": "racism",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e374",
+      "source": "racism",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e375",
+      "source": "racism",
+      "target": "reprojustice",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e376",
+      "source": "ralkinajones",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 543
+      }
+    },
+    {
+      "key": "e377",
+      "source": "ralkinajones",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 159
+      }
+    },
+    {
+      "key": "e378",
+      "source": "ralkinajones",
+      "target": "rekiaboyd",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e379",
+      "source": "ralkinajones",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e380",
+      "source": "ralkinajones",
+      "target": "samdubose",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e381",
+      "source": "ralkinajones",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e382",
+      "source": "ralkinajones",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e383",
+      "source": "ralkinajones",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e384",
+      "source": "rekiaboyd",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 897
+      }
+    },
+    {
+      "key": "e385",
+      "source": "rekiaboyd",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 86
+      }
+    },
+    {
+      "key": "e386",
+      "source": "rekiaboyd",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 24
+      }
+    },
+    {
+      "key": "e387",
+      "source": "rekiaboyd",
+      "target": "riseupoctober",
+      "attributes": {
+        "weight": 6
+      }
+    },
+    {
+      "key": "e388",
+      "source": "rekiaboyd",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e389",
+      "source": "reprojustice",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 217
+      }
+    },
+    {
+      "key": "e390",
+      "source": "reprojustice",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 23
+      }
+    },
+    {
+      "key": "e391",
+      "source": "riseupoctober",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 549
+      }
+    },
+    {
+      "key": "e392",
+      "source": "riseupoctober",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 91
+      }
+    },
+    {
+      "key": "e393",
+      "source": "riseupoctober",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 29
+      }
+    },
+    {
+      "key": "e394",
+      "source": "riseupoctober",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 26
+      }
+    },
+    {
+      "key": "e395",
+      "source": "riseupoctober",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 19
+      }
+    },
+    {
+      "key": "e396",
+      "source": "riseupoctober",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e397",
+      "source": "samdubose",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 215
+      }
+    },
+    {
+      "key": "e398",
+      "source": "samdubose",
+      "target": "sandrabland",
+      "attributes": {
+        "weight": 166
+      }
+    },
+    {
+      "key": "e399",
+      "source": "samdubose",
+      "target": "saveourgirls",
+      "attributes": {
+        "weight": 36
+      }
+    },
+    {
+      "key": "e400",
+      "source": "samdubose",
+      "target": "thetime",
+      "attributes": {
+        "weight": 36
+      }
+    },
+    {
+      "key": "e401",
+      "source": "samdubose",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 19
+      }
+    },
+    {
+      "key": "e402",
+      "source": "samdubose",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 9
+      }
+    },
+    {
+      "key": "e403",
+      "source": "samdubose",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e404",
+      "source": "sandrabland",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 39857
+      }
+    },
+    {
+      "key": "e405",
+      "source": "sandrabland",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 1538
+      }
+    },
+    {
+      "key": "e406",
+      "source": "sandrabland",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 1101
+      }
+    },
+    {
+      "key": "e407",
+      "source": "sandrabland",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 510
+      }
+    },
+    {
+      "key": "e408",
+      "source": "sandrabland",
+      "target": "sandrawasmurdered",
+      "attributes": {
+        "weight": 376
+      }
+    },
+    {
+      "key": "e409",
+      "source": "sandrabland",
+      "target": "saveourgirls",
+      "attributes": {
+        "weight": 222
+      }
+    },
+    {
+      "key": "e410",
+      "source": "sandrabland",
+      "target": "thismeanswar",
+      "attributes": {
+        "weight": 214
+      }
+    },
+    {
+      "key": "e411",
+      "source": "sandrabland",
+      "target": "thetime",
+      "attributes": {
+        "weight": 205
+      }
+    },
+    {
+      "key": "e412",
+      "source": "sandrabland",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 202
+      }
+    },
+    {
+      "key": "e413",
+      "source": "sandrabland",
+      "target": "whytheyshootme",
+      "attributes": {
+        "weight": 152
+      }
+    },
+    {
+      "key": "e414",
+      "source": "sandrabland",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 112
+      }
+    },
+    {
+      "key": "e415",
+      "source": "sandrabland",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 79
+      }
+    },
+    {
+      "key": "e416",
+      "source": "sandrabland",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 45
+      }
+    },
+    {
+      "key": "e417",
+      "source": "sandrawasmurdered",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 499
+      }
+    },
+    {
+      "key": "e418",
+      "source": "sandrawasmurdered",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 33
+      }
+    },
+    {
+      "key": "e419",
+      "source": "sandrawasmurdered",
+      "target": "sandyspeaks",
+      "attributes": {
+        "weight": 23
+      }
+    },
+    {
+      "key": "e420",
+      "source": "sandrawasmurdered",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 8
+      }
+    },
+    {
+      "key": "e421",
+      "source": "sandyspeaks",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 1660
+      }
+    },
+    {
+      "key": "e422",
+      "source": "sandyspeaks",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 240
+      }
+    },
+    {
+      "key": "e423",
+      "source": "sandyspeaks",
+      "target": "sandystillspeaks",
+      "attributes": {
+        "weight": 199
+      }
+    },
+    {
+      "key": "e424",
+      "source": "sandyspeaks",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e425",
+      "source": "sandyspeaks",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e426",
+      "source": "sandyspeaks",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e427",
+      "source": "sandystillspeaks",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 701
+      }
+    },
+    {
+      "key": "e428",
+      "source": "sandystillspeaks",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 107
+      }
+    },
+    {
+      "key": "e429",
+      "source": "sandystillspeaks",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e430",
+      "source": "saveourgirls",
+      "target": "sayhername",
+      "attributes": {
+        "weight": 223
+      }
+    },
+    {
+      "key": "e431",
+      "source": "saveourgirls",
+      "target": "thetime",
+      "attributes": {
+        "weight": 198
+      }
+    },
+    {
+      "key": "e432",
+      "source": "saveourgirls",
+      "target": "whytheyshootme",
+      "attributes": {
+        "weight": 149
+      }
+    },
+    {
+      "key": "e433",
+      "source": "sayhername",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 2715
+      }
+    },
+    {
+      "key": "e434",
+      "source": "sayhername",
+      "target": "sayhisname",
+      "attributes": {
+        "weight": 828
+      }
+    },
+    {
+      "key": "e435",
+      "source": "sayhername",
+      "target": "translivesmatter",
+      "attributes": {
+        "weight": 491
+      }
+    },
+    {
+      "key": "e436",
+      "source": "sayhername",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 357
+      }
+    },
+    {
+      "key": "e437",
+      "source": "sayhername",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 357
+      }
+    },
+    {
+      "key": "e438",
+      "source": "sayhername",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 356
+      }
+    },
+    {
+      "key": "e439",
+      "source": "sayhername",
+      "target": "serenashim",
+      "attributes": {
+        "weight": 279
+      }
+    },
+    {
+      "key": "e440",
+      "source": "sayhername",
+      "target": "thismeanswar",
+      "attributes": {
+        "weight": 228
+      }
+    },
+    {
+      "key": "e441",
+      "source": "sayhername",
+      "target": "thetime",
+      "attributes": {
+        "weight": 206
+      }
+    },
+    {
+      "key": "e442",
+      "source": "sayhername",
+      "target": "whytheyshootme",
+      "attributes": {
+        "weight": 154
+      }
+    },
+    {
+      "key": "e443",
+      "source": "sayhisname",
+      "target": "saytheirnames",
+      "attributes": {
+        "weight": 62
+      }
+    },
+    {
+      "key": "e444",
+      "source": "sayhisname",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 10
+      }
+    },
+    {
+      "key": "e445",
+      "source": "sayhisname",
+      "target": "staywoke",
+      "attributes": {
+        "weight": 5
+      }
+    },
+    {
+      "key": "e446",
+      "source": "sayhisname",
+      "target": "translivesmatter",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e447",
+      "source": "saytheirnames",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 4
+      }
+    },
+    {
+      "key": "e448",
+      "source": "saytheirnames",
+      "target": "tamirrice",
+      "attributes": {
+        "weight": 3
+      }
+    },
+    {
+      "key": "e449",
+      "source": "staywoke",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 24
+      }
+    },
+    {
+      "key": "e450",
+      "source": "staywoke",
+      "target": "thismeanswar",
+      "attributes": {
+        "weight": 11
+      }
+    },
+    {
+      "key": "e451",
+      "source": "thetime",
+      "target": "whytheyshootme",
+      "attributes": {
+        "weight": 145
+      }
+    },
+    {
+      "key": "e452",
+      "source": "thismeanswar",
+      "target": "whathappenedtosandrabland",
+      "attributes": {
+        "weight": 3
+      }
+    }
+  ]
+}

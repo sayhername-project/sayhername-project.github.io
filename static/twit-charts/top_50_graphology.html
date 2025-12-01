@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Top 50 Co-Occurring Hashtags — Network (Dark)</title>
+  <style>
+    html, body, #container {
+      margin: 0; padding: 0;
+      width: 100%; height: 100%;
+      background: #0d0d0d;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+    }
+    #tooltip {
+      position: fixed;
+      background: rgba(20,20,20,0.95);
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      display: none;
+      pointer-events: none;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.55);
+      max-width: 50ch;
+      white-space: nowrap;
+    }
+  </style>
+
+  <!-- Local libs (no CDN) -->
+  <script src="libs/graphology.umd.min.js"></script>
+  <script src="libs/sigma.umd.min.js"></script>
+</head>
+<body>
+  <div id="container"></div>
+  <div id="tooltip"></div>
+
+  <script>
+    // Quick sanity check
+    console.log("Graphology:", typeof graphology);
+    console.log("Sigma:", typeof sigma);
+
+    const container = document.getElementById("container");
+    const tooltip   = document.getElementById("tooltip");
+
+    function showTooltip(x, y, html) {
+      tooltip.innerHTML = html;
+      tooltip.style.left = (x + 12) + "px";
+      tooltip.style.top  = (y + 12) + "px";
+      tooltip.style.display = "block";
+    }
+    function hideTooltip() { tooltip.style.display = "none"; }
+
+    // Load your graph data
+    fetch("top_50_graph.json")
+      .then(r => r.json())
+      .then(data => {
+        const Graph = graphology;
+        const g = new Graph();
+
+        // Build graph from your JSON
+        data.nodes.forEach(n => {
+          const a = n.attributes || {};
+          // Ensure coordinates exist and are numbers
+          if (typeof a.x !== "number" || typeof a.y !== "number") {
+            a.x = Math.random() - 0.5;
+            a.y = Math.random() - 0.5;
+          }
+          // Keep original size in 'rawSize'; we’ll clamp at render time
+          if (typeof a.size !== "number") a.size = 8;
+          a.rawSize = a.size;
+          // Defaults to ensure contrast in dark mode
+          a.color = a.color || "#4db8ff";
+          a.label = a.label || ("#" + n.key);
+          a.strength = a.strength || 0;
+
+          g.addNode(n.key, a);
+        });
+
+        data.edges.forEach(e => {
+          const w = (e.attributes && e.attributes.weight) ? e.attributes.weight : 1;
+          if (!g.hasEdge(e.source, e.target)) {
+            g.addEdge(e.source, e.target, { weight: w });
+          }
+        });
+
+        // Create renderer (dark mode friendly)
+        const renderer = new sigma.Sigma(g, container, {
+          renderLabels: true,
+          labelDensity: 1,
+          labelFont: "Inter, system-ui, sans-serif",
+          labelSize: 12,
+          defaultNodeColor: "#4db8ff",
+          defaultEdgeColor: "rgba(255,255,255,0.25)",
+          stageBackgroundColor: "#0d0d0d"
+        });
+
+        // Clamp very large node sizes at render-time to keep it readable
+        // Map rawSize to [6, 28] range (you can tweak)
+        const MIN_SIZE = 6, MAX_SIZE = 28;
+        function scaledSize(raw) {
+          // If your JSON 'size' is already sqrt-scaled, a linear clamp is fine:
+          return Math.max(MIN_SIZE, Math.min(MAX_SIZE, raw));
+        }
+
+        // nodeReducer lets us override attributes for drawing without changing the graph
+        renderer.setSetting("nodeReducer", (node, attrs) => {
+          const raw = g.getNodeAttribute(node, "rawSize") || attrs.size || 8;
+          const size = scaledSize(raw);
+          return {
+            ...attrs,
+            size,
+            label: attrs.label,        // keep label
+            color: attrs.color         // ensure bright node color
+          };
+        });
+
+        // edgeReducer: thin weak edges, thicken strong edges
+        renderer.setSetting("edgeReducer", (edge, attrs) => {
+          const w = g.getEdgeAttribute(edge, "weight") || 1;
+          // sqrt scaling keeps big weights from exploding
+          const width = Math.max(0.6, Math.min(6, Math.sqrt(w)));
+          return {
+            ...attrs,
+            size: width,
+            color: "rgba(255,255,255,0.28)"
+          };
+        });
+
+        // Tooltips
+        renderer.on("enterNode", ({ node, event }) => {
+          const a = g.getNodeAttributes(node);
+          showTooltip(event.x, event.y,
+            `<b>${a.label}</b><br>Co-occurrence strength: ${Number(a.strength).toLocaleString()}`
+          );
+        });
+        renderer.on("leaveNode", hideTooltip);
+
+        renderer.on("enterEdge", ({ edge, event }) => {
+          const [u, v] = g.extremities(edge);
+          const au = g.getNodeAttributes(u);
+          const av = g.getNodeAttributes(v);
+          const w  = g.getEdgeAttribute(edge, "weight") || 0;
+
+          showTooltip(event.x, event.y,
+            `<b>${au.label} + ${av.label}</b><br>Count: ${Number(w).toLocaleString()}`
+          );
+        });
+        renderer.on("leaveEdge", hideTooltip);
+      })
+      .catch(err => {
+        console.error("Failed to load graph:", err);
+        showTooltip(20, 20, "<b>Error loading graph</b><br>Open console for details.");
+      });
+  </script>
+</body>
+</html>
