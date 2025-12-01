@@ -32,9 +32,9 @@
 
     <ArticleText>
       National outlets — many of them <strong>digital-native</strong> rather than legacy institutions — produced roughly
-      half of all articles <strong>(50.28%)</strong>, far outpacing local newsrooms, which accounted for about a quarter <strong>(24.79%)</strong>.
+      half of all articles <strong>(50.16%)</strong>, far outpacing local newsrooms, which accounted for about a quarter <strong>(24.99%)</strong>.
       A substantial portion of coverage also came from entertainment-adjacent or mixed-format sites classified as
-      <strong>“Other” (20.13%)</strong>, while international and broadcast sources contributed only small fractions.
+      <strong>“Other” (20.00%)</strong>, while international and broadcast sources contributed only small fractions.
     </ArticleText>
   {/snippet}
 </Scroller>

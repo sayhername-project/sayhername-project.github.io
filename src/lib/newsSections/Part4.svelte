@@ -73,8 +73,7 @@
 
   {#snippet scrolly()}
     <ArticleText>
-      The keyword data underscores these observations. “Sandra Bland” appears in <strong>23.1%</strong> of articles, followed by terms
-      like “police” (14.2%) and “death” (11.6%). 
+      The keyword data underscores these observations. “Sandra Bland” appears in <strong>23.0%</strong> of articles, followed by terms like “police” (14.4%) and “death” (11.5%). 
     </ArticleText>
 
     <ArticleText>
