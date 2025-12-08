@@ -96,24 +96,4 @@
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
 	}
-
-	.timeline-overlay {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.6);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		z-index: 9999;
-	}
-
-	.timeline-modal {
-		background: #111;
-		padding: 2rem;
-		border-radius: 12px;
-		max-width: 700px;
-		max-height: 80vh;
-		overflow-y: auto;
-		z-index: 10000;
-	}
 </style>

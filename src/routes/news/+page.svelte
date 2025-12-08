@@ -195,29 +195,4 @@
 	section {
 		animation: fadeInUp 0.8s ease-out;
 	}
-
-	button {
-		position: relative;
-		overflow: hidden;
-	}
-
-	button::before {
-		content: '';
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		width: 0;
-		height: 0;
-		border-radius: 50%;
-		background: rgba(255, 255, 255, 0.1);
-		transform: translate(-50%, -50%);
-		transition:
-			width 0.6s,
-			height 0.6s;
-	}
-
-	button:hover::before {
-		width: 300px;
-		height: 300px;
-	}
 </style>
