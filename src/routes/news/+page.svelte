@@ -7,6 +7,7 @@
 	// Import section components
     import NamesInteractive from '$lib/newsSections/NamesInteractive.svelte';
 	import Opening from '../../lib/newsSections/Opening.svelte';
+  import Part0_5 from '../../lib/newsSections/Part0_5.svelte';
 	import Part1 from '../../lib/newsSections/Part1.svelte';
 	import Part2 from '../../lib/newsSections/Part2.svelte';
 	import Part3 from '../../lib/newsSections/Part3.svelte';
@@ -159,6 +160,7 @@
 <!-- Scrollytelling Sections -->
 <div class="scrolling-container">
     <Opening />
+    <Part0_5 />
     <Part1 />
     <Part2 />
     <Part3 />

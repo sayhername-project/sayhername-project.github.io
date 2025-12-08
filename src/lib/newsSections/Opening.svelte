@@ -5,33 +5,8 @@
 	import FullWidthText from '$lib/components/FullWidthText.svelte';
 	import BigStat from '$lib/components/BigStat.svelte';
 	import Spacer from '$lib/components/Spacer.svelte';
-  import NamesInteractive from '$lib/newsSections/NamesInteractive.svelte';
 </script>
 
-<Scroller layout="right">
-  {#snippet sticky()}
-		<NamesInteractive />
-   
-	{/snippet}
-
-	{#snippet scrolly()} 
-    <Heading
-			scene="Scene 0"
-			title="The Silence Before the Storm"
-			subtitle="A look at the media landscape before #SayHerName gained national attention"
-		/>
-
-		<Spacer />
-
-		<ArticleText>
-			Before #SayHerName, their names were footnotes. Sandra Bland. Rekia Boyd. Tanisha Anderson.
-			When Black women were killed by police, media coverage was sparse, localized, and quickly
-			forgotten.
-		</ArticleText>
-
-	{/snippet}
-</Scroller>
-<br /><br /><br /><br /><br />
 <Scroller layout="right">
 	{#snippet sticky()}
 		<div class="conclusion-visual">
@@ -54,6 +29,16 @@
 	{/snippet}
 
 	{#snippet scrolly()}
+	    <Heading
+			scene="Scene 0"
+			title="The Silence Before the Storm"
+		/>
+
+		<ArticleText>
+			Before #SayHerName, their names were footnotes. Sandra Bland. Rekia Boyd. Tanisha Anderson.
+			When Black women were killed by police, media coverage was sparse, localized, and quickly
+			forgotten.
+		</ArticleText>
 		<ArticleText>
 			In 2015, a movement demanded something different: that we say their names, that we remember,
 			that we refuse to look away. This is the story of how America's news media responded—and who
