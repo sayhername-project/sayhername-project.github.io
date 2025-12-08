@@ -76,7 +76,7 @@
           #SayHerName challenges this erasure by insisting that we name and remember Black women who have been killed by police.
         </p>
         <p class="text-purple-300 italic">
-          "Fill the void. Lift your voice. Say her name." — Kimberlé Crenshaw and the African American Policy Forum in <i>#SayHerName: Black Women’s Stories of Police Violence and Public Silence</i>
+          "Fill the void. Lift your voice. Say her name." — Kimberlé Crenshaw and the African American Policy Forum in <i>"#SayHerName: Black Women’s Stories of Police Violence and Public Silence"</i>
         </p>
       </div>
     </div>
