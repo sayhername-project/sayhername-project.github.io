@@ -161,6 +161,12 @@
                         African American Policy Forum. (n.d.). <i>#SayHerName.</i> <a href="https://www.aapf.org/sayhername" class="text-purple-300" style="text-decoration: underline;">https://www.aapf.org/sayhername.</a>
                     </li>
                     <li>
+                        Clemm von Hohenberg, B., Menchen-Trevino, E., Casas, A., Wojcieszak, M. (2021). <i>A list of over 5000 US news domains and their social media accounts.</i> <a href="https://doi.org/10.5281/zenodo.7651047" class="text-purple-300" style="text-decoration: underline;">https://doi.org/10.5281/zenodo.7651047.</a>
+                    </li>
+                    <li>
+                        Crenshaw, Kimberlé, and African American Policy Forum, authors. <i>#SayHerName: Black Women’s Stories of Police Violence and Public Silence.</i> Foreword by Janelle Monáe. Haymarket Books, 2023.
+                    </li>
+                    <li>
                         Jackson, S. J., Bailey, M., & Foucault Welles, B. (2020). <i>#HashtagActivism: Networks of race and gender justice.</i> The MIT Press.
                     </li>
                     <li>
@@ -168,6 +174,9 @@
                     </li>
                     <li>
                         Korr, Vadim. (2023). svelte-carousel [Computer software]. GitHub. <a href="https://github.com/vadimkorr/svelte-carousel" class="text-purple-300" style="text-decoration: underline;">https://github.com/vadimkorr/svelte-carousel.</a> (Accessed December 7, 2025).
+                    </li>
+                    <li>
+                        Media Cloud team. <i>Coverage analysis of Black women’s stories of police violence using the #SayHerName framework, 2015.</i> Media Cloud, Accessed 7 Dec. 2025, <a href="www.mediacloud.org" class="text-purple-300" style="text-decoration: underline;">www.mediacloud.org</a>
                     </li>
                     <li>
                         Nguyen, T., Vu, X.-S., & Nguyen, M.-T. (2020). <i>BERTweet: A pre-trained language model for English Tweets</i> [Computer software]. Hugging Face. <a href="https://huggingface.co/vinai/bertweet-base" class="text-purple-300" style="text-decoration: underline;">https://huggingface.co/vinai/bertweet-base.</a>

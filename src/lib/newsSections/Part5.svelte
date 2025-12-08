@@ -66,7 +66,7 @@
     </ArticleText>
 
     <ArticleText>
-      Learn more about the movement through the <a href="https://aapf.org/" style="color: #0066cc; text-decoration: underline;">African American Policy Forum</a>, or see our work on how activists drove the conversation on Twitter <a href="[Insert twitter page]" style="color: #0066cc; text-decoration: underline;">here</a>. Keep in mind that duplicates exist, classifiers may imperfectly categorize articles, and some coverage may not be captured here. For full details, including which dataset was used (deduplicated vs. content-unique), citations, and methodology for how the graphs were created—please see <a href="[insert link]" style="color: #0066cc; text-decoration: underline;">our full methodology page</a>.
+      Learn more about the movement through the <a href="https://aapf.org/" style="color: #0066cc; text-decoration: underline;">African American Policy Forum</a>, or see our work on how activists drove the conversation on Twitter <a href="https://katrinahuang888.github.io/SayHerName/twitter" style="color: #0066cc; text-decoration: underline;">here</a>. Keep in mind that duplicates exist, classifiers may imperfectly categorize articles, and some coverage may not be captured here. For full details, including which dataset was used (deduplicated vs. content-unique), citations, and methodology for how the graphs were created—please see <a href="https://katrinahuang888.github.io/SayHerName/data" style="color: #0066cc; text-decoration: underline;">our full methodology page</a>.
     </ArticleText>
 
   {/snippet}
