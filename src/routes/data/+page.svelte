@@ -156,7 +156,7 @@
         <div class="max-w-4xl mx-auto">
             <h2 class="text-4xl md:text-5xl mb-8 text-center text-white">Citations</h2>
             <div class="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed">
-                <ul class="list-disc">
+                <ul class="list-disc ml-10">
                     <li>
                         African American Policy Forum. (n.d.). <i>#SayHerName.</i> <a href="https://www.aapf.org/sayhername" class="text-purple-300" style="text-decoration: underline;">https://www.aapf.org/sayhername.</a>
                     </li>
