@@ -46,7 +46,7 @@
 		</ArticleText>
 		<ArticleText>
 			<br /> <br /> <br /> <br />
-			Our dataset, scraped from MediaCloud, began with 10,759 raw articles. We processed the data
+			Our dataset, scraped from <strong>MediaCloud</strong>, began with 10,759 raw articles. We processed the data
 			through two stages of deduplication. During stage 1, source-level deduplication, we removed duplicate
 			results caused by repeated scrapes or overlapping Google search returns. This returned 7,505 articles.
 			Next, we performed content-level deduplication to remove articles with identical or near-identical
