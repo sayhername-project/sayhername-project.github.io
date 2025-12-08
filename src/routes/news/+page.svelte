@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import Spacer from '$lib/components/Spacer.svelte';
+  import HeaderBar from "$lib/components/HeaderBar.svelte";
+
 
 	// Import section components
     import NamesInteractive from '$lib/newsSections/NamesInteractive.svelte';
@@ -28,11 +30,11 @@
 	<title>News Coverage | #SayHerName</title>
 </svelte:head>
 
-<header
+<!-- <header
   class="w-full bg-black/90 backdrop-blur-md border-b border-gray-800"
 >
   <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-    <!-- Title -->
+    // Header
     <button
       on:click={navigateHome}
       class="text-xl md:text-2xl font-semibold tracking-tight text-white hover:text-purple-300 transition-colors duration-300 focus:outline-none"
@@ -40,7 +42,7 @@
       #SayHerName
     </button>
 
-    <!-- Nav Buttons -->
+    // Nav 
     <nav class="flex items-center gap-4">
       <button
         on:click={navigateToTwitter}
@@ -57,7 +59,9 @@
       </button>
     </nav>
   </div>
-</header>
+</header> -->
+
+<HeaderBar />
 
 <main class="">
 	<section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">

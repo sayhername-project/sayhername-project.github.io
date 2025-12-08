@@ -17,10 +17,6 @@
           <div class="stat-label">total tweets with #SayHerName in 2015</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">99K+</div>
-          <div class="stat-label">original tweets</div>
-        </div>
-        <div class="stat-card">
           <div class="stat-number">429K+</div>
           <div class="stat-label">users involved</div>
         </div>

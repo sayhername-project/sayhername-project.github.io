@@ -11,8 +11,16 @@
             <h2 class="text-4xl text-white mb-8 font-bold">#SayHerName on Twitter</h2>
             <div class="stat-grid">
                 <div class="stat-card">
-                    <div class="stat-number">tweets</div>
-                    <div class="stat-label">diff than prev</div>
+                    <div class="stat-number">564K+</div>
+                    <div class="stat-label">total tweets with #SayHerName in 2015</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">429K+</div>
+                    <div class="stat-label">users involved</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">273K+</div>
+                    <div class="stat-label">hashtags used</div>
                 </div>
             </div>
         </div>
@@ -55,7 +63,10 @@
 
         <br/>
         <ArticleText>
-            call to action.
+            We encourage you to learn more about the movement led by the 
+            <a href="https://www.aapf.org/sayhername" style="color: #0066cc; text-decoration: underline;">African American Policy Forum</a> or see our work on how 
+            the traditional media channels reacted to #SayHerName. For full details on how the above data was 
+            derived, please see our <a href = "https://katrinahuang888.github.io/SayHerName/data" style="color: #0066cc; text-decoration: underline;">full methodology page</a>.
         </ArticleText>
 
     {/snippet}

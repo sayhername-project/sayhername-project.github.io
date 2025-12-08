@@ -26,8 +26,7 @@
         <Pt2 />
         <Pt3 />
         <Pt4 />
-</div>
-
+    </div>
 <!-- <Spacer height="20vh" /> -->
 </main>
 

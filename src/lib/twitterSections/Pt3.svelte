@@ -78,11 +78,14 @@
   {#snippet sticky()}
     <Spacer />
     <div class="chart-container">
-        <iframe 
-            src="twit-charts/behaviors_chart.html" 
-            class="chart-iframe"
-            title="Distribution of Tweet Behaviors<br><sup>#SayHerName</sup>"
-        ></iframe>
+      <iframe 
+          src="twit-charts/behaviors_chart.html" 
+          class="chart-iframe"
+          title="Distribution of Tweet Behaviors<br><sup>#SayHerName</sup>"
+      ></iframe>
+      <p class="cite-p">
+        The chart only includes tweets from individuals actively engaged in the #SayHerName movement, rather than retweets or replies.        
+      </p>
     </div>
     <Spacer />
   {/snippet}
@@ -102,43 +105,44 @@
 <!-- SUBSECTION: Unity and Support -->
 <Scroller layout="right">
   {#snippet sticky()}
+    <Spacer />
     <div class="conclusion-visual">
-      <h2 class="text-3xl text-white mb-8 font-bold">Tweets that emote unity/support</h2>
+      <h2 class="text-xl text-white mb-8 font-bold">Tweets that emote unity and support</h2>
     </div>
     <div class="sticky-carousel-container">
       {#if mounted && CarouselCmp}
           <CarouselCmp
-              bind:this={carousel}
-              itemsToShow={1} 
-              itemsToScroll={1}
+            bind:this={carousel}
+            itemsToShow={1} 
+            itemsToScroll={1}
           >
-              <TweetCard
-                  text="#Sayhername Topless black women are shutting down San Franciscos busiest streets during rush hour"
-                  timestamp="May 21, 2015 • 6:39pm"
-              />
-              <TweetCard
-                  text="In dismantling systems of sexism; racism, we need to center black women's experiences: #SayHerName"
-                  timestamp="May 28, 2015 • 7:22pm"
-              />
-              <TweetCard
-                  text="Rise up for the women. Rise up for us. This is not an #ontothenextone situation. #SayHerName #WhatHappenedToSandraBland"
-                  timestamp="July 16, 2015 • 8:43pm"
-              />
-              <TweetCard
-                  text="I only get on Twitter ever so often but now... I'll be tweeting my ass off for San #JusticeForSandy #SayHerName #RIHSan"
-                  timestamp="July 23, 2015 • 5:05pm"
-              />
-              <TweetCard
-                  text="Community teach-in on Justice for #NatashaMcKenna 11/3 at 7pm. Bring neighbors and friends and help us #SayHerName"
-                  timestamp="October 29, 2015 • 7:38pm"
-              />
-          </CarouselCmp>
+            <TweetCard
+                text="#Sayhername Topless black women are shutting down San Franciscos busiest streets during rush hour"
+                timestamp="May 21, 2015 • 6:39pm"
+            />
+            <TweetCard
+                text="In dismantling systems of sexism; racism, we need to center black women's experiences: #SayHerName"
+                timestamp="May 28, 2015 • 7:22pm"
+            />
+            <TweetCard
+                text="Rise up for the women. Rise up for us. This is not an #ontothenextone situation. #SayHerName #WhatHappenedToSandraBland"
+                timestamp="July 16, 2015 • 8:43pm"
+            />
+            <TweetCard
+                text="I only get on Twitter ever so often but now... I'll be tweeting my ass off for San #JusticeForSandy #SayHerName #RIHSan"
+                timestamp="July 23, 2015 • 5:05pm"
+            />
+            <TweetCard
+                text="Community teach-in on Justice for #NatashaMcKenna 11/3 at 7pm. Bring neighbors and friends and help us #SayHerName"
+                timestamp="October 29, 2015 • 7:38pm"
+            />
+        </CarouselCmp>
       {/if}
     </div>
     <br/><br/>
     <div class="cite-text">
         <p class="cite-p">
-            To protect user confidentiality, the above tweets were anonymized.
+            To protect user privacy, the above tweets were anonymized.
         </p>
     </div>
     <Spacer />
@@ -156,12 +160,13 @@
   {/snippet}
 </Scroller>
 
+
 <!-- SUBSECTION: Outrage -->
 <Scroller layout="right">
   {#snippet sticky()}
     <Spacer />
     <div class="conclusion-visual">
-      <h2 class="text-3xl text-white mb-8 font-bold">Tweets that emote outrage</h2>
+      <h2 class="text-xl text-white mb-8 font-bold">Tweets that emote outrage</h2>
     </div>
     <div class="sticky-carousel-container">
       {#if mounted && CarouselCmp}
@@ -196,7 +201,7 @@
     <br/><br/>
     <div class="cite-text">
         <p class="cite-p">
-            To protect user confidentiality, the above tweets were anonymized.
+            To protect user privacy, the above tweets were anonymized.
         </p>
     </div>
     <Spacer />
@@ -218,7 +223,7 @@
   {#snippet sticky()}
     <Spacer />
     <div class="conclusion-visual">
-      <h2 class="text-3xl text-white mb-8 font-bold">Tweets that emote sadness/mourning</h2>
+      <h2 class="text-xl text-white mb-8 font-bold">Tweets that emote sadness/mourning</h2>
     </div>
     <div class="sticky-carousel-container">
       {#if mounted && CarouselCmp}
@@ -253,7 +258,7 @@
     <br/><br/>
     <div class="cite-text">
         <p class="cite-p">
-            To protect user confidentiality, the above tweets were anonymized.
+            To protect user privacy, the above tweets were anonymized.
         </p>
     </div>
     <Spacer />
@@ -263,8 +268,7 @@
     <ArticleText>
       The smallest category, 5.12%, <i>Sad/Mournful</i>, represents tweets rooted in grief–a direct emotional 
       response to lives lost and the injustices embedded in systems that harm Black women. Its small percentage 
-      suggests that, although the movement began in mourning, grief was more often folded into supportive 
-      and activist messaging than expressed on its own. 
+      suggests that grief was more often folded into supportive and activist messaging than expressed on its own. 
     </ArticleText>
   {/snippet}
 </Scroller>
@@ -273,14 +277,15 @@
 <Scroller layout="right">
   {#snippet sticky()}
     <Spacer />
-    <div class="conclusion-visual">
-      <h2 class="text-4xl text-white mb-8 font-bold">#SayHerName on Twitter</h2>
-      <div class="stat-grid">
-        <div class="stat-card">
-          <div class="stat-number">Motivation</div>
-          <div class="stat-label">analysis</div>
-        </div>
-      </div>
+    <div class="chart-container">
+      <iframe 
+          src="twit-charts/motivations_chart.html" 
+          class="chart-iframe"
+          title="Distribution of Tweet Motivations<br><sup>#SayHerName</sup>"
+      ></iframe>
+      <p class="cite-p">
+        The chart only includes tweets from individuals actively engaged in the #SayHerName movement, rather than retweets or replies.        
+      </p>
     </div>
     <Spacer />
   {/snippet}
@@ -289,7 +294,210 @@
     <ArticleText>
       Complementing this, three key behavioral patterns were discovered that explore how users felt about the conversation: outrage against a broken system, unifying others under this movement, or expressing sorrow about the grievances against the Black female community.
     </ArticleText>
+  {/snippet}
+</Scroller>
 
+<Spacer />
+
+<!-- SUBSECTION: CTA -->
+<Scroller layout="right">
+  {#snippet sticky()}
+    <Spacer />
+    <div class="conclusion-visual">
+      <h2 class="text-xl text-white mb-8 font-bold">Tweets that call others to action</h2>
+    </div>
+    <div class="sticky-carousel-container">
+      {#if mounted && CarouselCmp}
+          <CarouselCmp
+              bind:this={carousel}
+              itemsToShow={1} 
+              itemsToScroll={1}
+          >
+              <TweetCard
+                  text="how many black n brown men on my feed today will #SayHerName and stand with our women who are being taken by police violence"
+                  timestamp="May 20, 2015 • 4:44pm"
+              />
+              <TweetCard
+                  text="Demand justice for #SandraBland! Tell the #DoJ to investigate: #SayHerName #BlackLivesMatter"
+                  timestamp="July 22, 2015 • 11:59pm"
+              />
+              <TweetCard
+                  text="Get involved before it's your name at the end of a hashtag - #SayHerName #SandraBland"
+                  timestamp="July 25, 2015 • 5:54am"
+              />
+          </CarouselCmp>
+      {/if}
+    </div>
+    <br/><br/>
+    <div class="cite-text">
+        <p class="cite-p">
+            To protect user privacy, the above tweets were anonymized.
+        </p>
+    </div>
+    <Spacer />
+  {/snippet}
+
+  {#snippet scrolly()}    
+    <ArticleText>
+      Nearly a quarter of tweets (21.5%) aimed to <i>call others to action</i> and encourage participation in 
+      the movement. They also may demand recognition of Black women’s sufferings by calling on those in 
+      positions of power–such as political leaders, policymakers, and institutions–to take concrete steps 
+      toward systemic change. By rallying others to speak out and demand accountability, users aimed to 
+      interrupt the main narrative with the #SayHerName movement.
+    </ArticleText>
+  {/snippet}
+</Scroller>
+
+<!-- SUBSECTION: Info/Aware -->
+<Scroller layout="right">
+  {#snippet sticky()}
+    <Spacer />
+    <div class="conclusion-visual">
+      <h2 class="text-xl text-white mb-8 font-bold">Tweets that share information on #SayHerName</h2>
+    </div>
+    <div class="sticky-carousel-container">
+      {#if mounted && CarouselCmp}
+          <CarouselCmp
+              bind:this={carousel}
+              itemsToShow={1} 
+              itemsToScroll={1}
+          >
+              <TweetCard
+                  text="Today 3pm ET: #SayHerName, an online panel on race+gender in state violence. Twitter chat after at #HerDreamDeferred"
+                  timestamp="March 30, 2015 • 5:05pm"
+              />
+              <TweetCard
+                  text="Mainstream Media Remains Silent About Black Women Killed By Police #sayhername"
+                  timestamp="May 14, 2015 • 12:00am"
+              />
+              <TweetCard
+                  text="Painter: With Sojourner Truth's breast-baring, 'what had been intended as degradation became a triumph of embodied rhetoric.' #SayHerName"
+                  timestamp="May 21, 2015 • 10:57pm"
+              />
+          </CarouselCmp>
+      {/if}
+    </div>
+    <br/><br/>
+    <div class="cite-text">
+        <p class="cite-p">
+            To protect user privacy, the above tweets were anonymized.
+        </p>
+    </div>
+    <Spacer />
+  {/snippet}
+
+  {#snippet scrolly()}    
+    <ArticleText>
+      A core aim of #SayHerName is to push back against the marginalization of Black women in mainstream news 
+      and within the broader #BlackLivesMatter movement. This commitment is reflected in the 32.9% of tweets focused 
+      on circulating information and raising awareness–<i>Informational/Awareness</i>–of the lived experience of a Black woman. 
+      These posts shared formal news articles, blogs, personal essays, and on-the-ground reporting–such as live 
+      updates on protests, vigils, or local community gatherings. By spreading information that mainstream outlets often 
+      overlooked, users helped to build a shared public timeline of events that ensured the movement was accessible 
+      to all. 
+    </ArticleText>
+  {/snippet}
+</Scroller>
+
+<!-- SUBSECTION: Remembrance-->
+<Scroller layout="right">
+  {#snippet sticky()}
+    <Spacer />
+    <div class="conclusion-visual">
+      <h2 class="text-xl text-white mb-8 font-bold">Tweets remembrance</h2>
+    </div>
+    <div class="sticky-carousel-container">
+      {#if mounted && CarouselCmp}
+          <CarouselCmp
+              bind:this={carousel}
+              itemsToShow={1} 
+              itemsToScroll={1}
+          >
+              <TweetCard
+                text="Kayla Moore. Kayla Moore. Kayla Moore. Kayla Moore. Kayla Moore. Kayla Moore. Kayla Moore. #SayHerName"
+                timestamp="May 20, 2015 • 6:55pm"
+              />
+              <TweetCard
+                text="For the women that work so hard on the lines against police brutality & those lost, I wrote this for you. #sayhername"
+                timestamp="June 8, 2015 • 9:30pm"
+              />
+              <TweetCard
+                text="#NatashaMcKenna - I will #SayHerName because her life mattered."
+                timestamp="September 11, 2015 • 3:36am"
+              /> 
+          </CarouselCmp>
+      {/if}
+    </div>
+    <br/><br/>
+    <div class="cite-text">
+        <p class="cite-p">
+            To protect user privacy, the above tweets were anonymized.
+        </p>
+    </div>
+    <Spacer />
+  {/snippet}
+
+  {#snippet scrolly()}    
+    <ArticleText>
+      <i>Remembrance</i> accounts for 34.3% of all original tweets, in alliance with the AAPF’s agenda in 
+      commemorating women who have died due to police brutality and anti-black violence. These tweets 
+      honor those lives lost and urge others not to let their names fade from public consciousness. From simple 
+      acts–like posting #SayHerName–to imagining what those lives could have been–users engaged in a collective 
+      effort to preserve their lives in memory.
+    </ArticleText>
+  {/snippet}
+</Scroller>
+
+<!-- SUBSECTION: Resistance-->
+<Scroller layout="right">
+  {#snippet sticky()}
+    <Spacer />
+    <div class="conclusion-visual">
+      <h2 class="text-xl text-white mb-8 font-bold">Tweets that resist the dominant narrative</h2>
+    </div>
+    <div class="sticky-carousel-container">
+      {#if mounted && CarouselCmp}
+          <CarouselCmp
+              bind:this={carousel}
+              itemsToShow={1} 
+              itemsToScroll={1}
+          >
+              <TweetCard
+                text="Amazing....Bill Cosby still trending....#SandyBrand...not so much....pay attention and do NOT be fooled...#sayhername...#justiceforsandy"
+                timestamp="July 23, 2015 • 10:19pm"
+              />
+              <TweetCard
+                text="'If I die in police custody, I didn't commit suicide' #SayHerName #WhatHappenedToSandraBland #Empire #WeWillNotForget"
+                timestamp="October 14, 2015 • 7:26pm"
+              />
+              <TweetCard
+                text="I'm still AWAKE #SayHerName justice for Sandra Bland #SandraBland"
+                timestamp="October 14, 2015 • 9:17pm"
+              /> 
+          </CarouselCmp>
+      {/if}
+    </div>
+    <br/><br/>
+    <div class="cite-text">
+        <p class="cite-p">
+            To protect user privacy, the above tweets were anonymized.
+        </p>
+    </div>
+    <Spacer />
+  {/snippet}
+
+  {#snippet scrolly()}    
+    <ArticleText>
+      Resistance makes up 11.3% of all tweets, reflecting users’ efforts to push back against dominant narratives 
+      surrounding police violence and the erasure of Black women. These posts called out official storylines, 
+      challenged the media's framing of stories, and exposed institutional failures, asserting that the stories being 
+      told were incomplete or misleading. Through this resistance, users worked to direct attention towards the 
+      lived realities and systemic injustices that mainstream narratives often ignored.
+      <br/><br/>
+      Because the entire #SayHerName movement is itself an act of resistance, it is unsurprising that explicit 
+      resistance tweets form the smallest category. Measuring them still reveals how users directly challenged 
+      dominant narratives in addition to the broader collective resistance.
+    </ArticleText>
   {/snippet}
 </Scroller>
 
@@ -297,25 +505,40 @@
 <Scroller layout="right">
   {#snippet sticky()}
     <Spacer />
-    <div class="conclusion-visual">
-      <h2 class="text-4xl text-white mb-8 font-bold">#SayHerName on Twitter</h2>
-      <div class="stat-grid">
-        <div class="stat-card">
-          <div class="stat-number">Linkage</div>
-          <div class="stat-label">analysis</div>
-        </div>
-      </div>
+    <div class="chart-container">
+      <iframe 
+          src="twit-charts/behavior_motivation_heatmap.html" 
+          class="chart-iframe"
+          title="Behavior × Motivation Heatmap (% of Tweets) <br/><sup>#SayHerName</sup>"
+      ></iframe>
+      <p class="cite-p">
+        The chart only includes tweets from individuals actively engaged in the #SayHerName movement, rather than retweets or replies.        
+      </p>
     </div>
     <Spacer />
   {/snippet}
 
-  {#snippet scrolly()}    
+  {#snippet scrolly()}
+    <div class="conclusion-visual">
+      <h2 class="text-xl text-black mb-8 font-bold ml-6">What happens when we look at both categories and how they intersect?</h2>
+    </div>
     <ArticleText>
-      tbd.
+      The two largest intersections on the heatmap—<i>Remembrance</i> paired with <i>Unity and Support</i> at 32.5% 
+      and <i>Informational/Awareness</i> with <i>Unity and Support</i> at 24.6% —is unsurprising given that all three 
+      categories individually represent some of the strongest themes in the dataset. This overlap illustrates how 
+      remembrance and awareness of a Black woman’s lived experience served as a unifying force, bringing people 
+      together in collective grief and solidarity as they honored the lives of Black women lost to violence.
     </ArticleText>
-
+    <ArticleText>
+      <i>Call to Action</i> and <i>Resistance</i> was also often paired with Outrage, coming in at 11.5% and 5.2% 
+      respectively. Given that both motivations push back against dominant narratives by surfacing police violence 
+      and Black women’s experiences, their frequent pairing with outrage reflects users’ frustration with the 
+      hegemonic systems that work to silence these stories. 
+    </ArticleText>
   {/snippet}
 </Scroller>
+
+<Spacer />
 
 <style>
 
@@ -337,6 +560,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
 
   .chart-iframe {
@@ -400,6 +624,7 @@
       max-width: 500px;   /* limit width */
       height: auto;
       margin: 0 auto;
+      flex-direction: row;
   }
 
   /* Carousel arrows look cleaner on dark background */

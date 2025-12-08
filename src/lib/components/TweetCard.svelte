@@ -55,4 +55,17 @@
         opacity: 0.7;
         color: #d1d5db; /* light gray */
     }
+
+    .slide {
+        width: 100%;
+        height: 200px;       /* carousel height */
+        background: #0b2a7f;
+        border-radius: 12px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 </style>

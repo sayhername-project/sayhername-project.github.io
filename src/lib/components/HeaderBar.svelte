@@ -1,17 +1,22 @@
 <script lang="ts">
     import { goto } from '$app/navigation';
+    const base = import.meta.env.BASE_URL;
 
     function navigateToTwitter() {
-        goto('/twitter');
+        goto(`${base}twitter`);
     }
 
     function navigateToNews() {
-        goto('/news');
+        goto(`${base}news`);
     }
 
     function navigateHome() {
-        goto('/');
+        goto(base);
     }
+
+    function navigateToData() {
+    goto(`${base}data`);
+  }
 </script>
 
 <header
@@ -32,7 +37,7 @@
                 on:click={navigateToTwitter}
                 class="px-4 py-2 bg-gradient-to-r from-blue-400 to-blue-900 rounded-md text-white text-sm md:text-base transition-all duration-300 hover:scale-105 shadow-md"
             >
-                Explore Twitter Conversations
+                Explore Twitter Convos
             </button>
 
             <button
@@ -40,6 +45,13 @@
                 class="px-4 py-2 bg-gradient-to-r from-blue-900 to-purple-900 rounded-md text-white text-sm md:text-base transition-all duration-300 hover:scale-105 shadow-md"
             >
                 Explore News Coverage
+            </button>
+
+            <button
+                on:click={navigateToData}
+                class="px-4 py-2 bg-gradient-to-r from-purple-900 to-pink-900 rounded-md text-white text-sm md:text-base transition-all duration-300 hover:scale-105 shadow-md"
+            >
+                Behind the Data
             </button>
         </nav>
     </div>

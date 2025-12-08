@@ -9,6 +9,10 @@
     goto('news');
   }
 
+  function navigateToData() {
+    goto('data');
+  }
+
   import HeaderBar from "$lib/components/HeaderBar.svelte";
 </script>
 
@@ -146,10 +150,10 @@
         spaces in 2015.
       </p>
 
-      <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+      <div class="flex flex-wrap flex-col sm:flex-row gap-6 justify-center items-center">
         <button
           on:click={navigateToTwitter}
-          class="group relative px-8 py-4 bg-linear-to-r from-blue-400 to-blue-900 hover:from-blue-400 hover:to-blue-900 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl min-w-[280px]"
+          class="group relative px-8 py-4 bg-linear-to-r from-blue-400 to-blue-900 hover:from-blue-400 hover:to-blue-900 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl min-w-[350px]"
         >
           <span class="flex items-center justify-center gap-3">
             Explore Twitter Conversations →
@@ -158,10 +162,19 @@
 
         <button
           on:click={navigateToNews}
-          class="group relative px-8 py-4 bg-linear-to-r from-blue-900 to-purple-900 hover:from-blue-900 hover:to-purple-900 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl min-w-[280px]"
+          class="group relative px-8 py-4 bg-linear-to-r from-blue-900 to-purple-900 hover:from-blue-900 hover:to-purple-900 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl min-w-[320px]"
         >
           <span class="flex items-center justify-center gap-3">
             Explore News Coverage →
+          </span>
+        </button>
+
+        <button
+          on:click={navigateToData}
+          class="group relative px-8 py-4 bg-linear-to-r from-purple-900 to-pink-900 hover:from-blue-900 hover:to-purple-900 rounded-lg text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl min-w-[280px]"
+        >
+          <span class="flex items-center justify-center gap-3">
+            Behind the Data →
           </span>
         </button>
       </div>
