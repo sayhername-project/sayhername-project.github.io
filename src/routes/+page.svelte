@@ -33,7 +33,12 @@
       class="absolute inset-0 bg-cover bg-center"
       style="background-image: url('https://static.wixstatic.com/media/b77e03_2823d8e951d844a98bb3a1d7645955eb~mv2.jpeg/v1/fill/w_582,h_908,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b77e03_2823d8e951d844a98bb3a1d7645955eb~mv2.jpeg')"
     >
-      <div class="absolute inset-0 bg-linear-to-b from-black/80 via-black/70 to-black"></div>
+    <div class="absolute inset-0 bg-linear-to-b from-black/80 via-black/70 to-black"></div>
+    <div
+      style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 5px 10px; font-size: 12px; text-align: center;"
+    >
+      Image source: #SayHerName: Black Women’s Stories of Police Violence and Public Silence
+    </div>
     </div>
 
     <div class="relative z-10 max-w-5xl mx-auto px-6 py-20 text-center">
@@ -71,7 +76,7 @@
           #SayHerName challenges this erasure by insisting that we name and remember Black women who have been killed by police.
         </p>
         <p class="text-purple-300 italic">
-          "Fill the void. Lift your voice. Say her name." — Kimberlé Crenshaw and the African American Policy Forum
+          "Fill the void. Lift your voice. Say her name." — Kimberlé Crenshaw and the African American Policy Forum in <i>"#SayHerName: Black Women’s Stories of Police Violence and Public Silence"</i>
         </p>
       </div>
     </div>

@@ -36,6 +36,19 @@
       A substantial portion of coverage also came from entertainment-adjacent or mixed-format sites classified as
       <strong>“Other” (20.00%)</strong>, while international and broadcast sources contributed only small fractions.
     </ArticleText>
+
+    <div class="cite-text">
+      <p class="cite-p">
+        Preliminary categorization of sources from Clemm von Hohenberg, B., Menchen-Trevino, E., Casas, A., Wojcieszak, M. (2021). <i
+							>A list of over 5000 US news domains and their social media accounts.</i
+						>
+						<a
+							href="https://doi.org/10.5281/zenodo.7651047"
+							class="text-purple-300"
+							style="text-decoration: underline;">https://doi.org/10.5281/zenodo.7651047.</a
+						>
+      </p>
+    </div>
   {/snippet}
 </Scroller>
 
@@ -100,4 +113,19 @@
     background: transparent;
     border-radius: 8px;
   }
+
+  .cite-text {
+      width: 100%;
+      min-height: 30vh;
+      padding-left: 20px;
+      margin: 0 auto 2rem auto;
+      color: #111;
+    }
+
+    .cite-p {
+      width: 100%;
+      font-style: italic;
+      font-size: 0.9rem;
+      color: #666;
+    }
 </style>

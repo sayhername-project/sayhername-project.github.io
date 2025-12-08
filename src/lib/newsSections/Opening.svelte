@@ -5,33 +5,8 @@
 	import FullWidthText from '$lib/components/FullWidthText.svelte';
 	import BigStat from '$lib/components/BigStat.svelte';
 	import Spacer from '$lib/components/Spacer.svelte';
-  import NamesInteractive from '$lib/newsSections/NamesInteractive.svelte';
 </script>
 
-<Scroller layout="right">
-  {#snippet sticky()}
-		<NamesInteractive />
-   
-	{/snippet}
-
-	{#snippet scrolly()} 
-    <Heading
-			scene="Scene 0"
-			title="The Silence Before the Storm"
-			subtitle="A look at the media landscape before #SayHerName gained national attention"
-		/>
-
-		<Spacer />
-
-		<ArticleText>
-			Before #SayHerName, their names were footnotes. Sandra Bland. Rekia Boyd. Tanisha Anderson.
-			When Black women were killed by police, media coverage was sparse, localized, and quickly
-			forgotten.
-		</ArticleText>
-
-	{/snippet}
-</Scroller>
-<br /><br /><br /><br /><br />
 <Scroller layout="right">
 	{#snippet sticky()}
 		<div class="conclusion-visual">
@@ -54,6 +29,16 @@
 	{/snippet}
 
 	{#snippet scrolly()}
+	    <Heading
+			scene="Scene 0"
+			title="The Silence Before the Storm"
+		/>
+
+		<ArticleText>
+			Before #SayHerName, their names were footnotes. Sandra Bland. Rekia Boyd. Tanisha Anderson.
+			When Black women were killed by police, media coverage was sparse, localized, and quickly
+			forgotten.
+		</ArticleText>
 		<ArticleText>
 			In 2015, a movement demanded something different: that we say their names, that we remember,
 			that we refuse to look away. This is the story of how America's news media responded—and who
@@ -61,7 +46,7 @@
 		</ArticleText>
 		<ArticleText>
 			<br /> <br /> <br /> <br />
-			Our dataset, scraped from MediaCloud, began with 10,759 raw articles. We processed the data
+			Our dataset, scraped from <strong>MediaCloud</strong>, began with 10,759 raw articles. We processed the data
 			through two stages of deduplication. During stage 1, source-level deduplication, we removed duplicate
 			results caused by repeated scrapes or overlapping Google search returns. This returned 7,505 articles.
 			Next, we performed content-level deduplication to remove articles with identical or near-identical
@@ -110,25 +95,5 @@
 		color: #e8d9c3;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
-	}
-
-	.timeline-overlay {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.6);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		z-index: 9999;
-	}
-
-	.timeline-modal {
-		background: #111;
-		padding: 2rem;
-		border-radius: 12px;
-		max-width: 700px;
-		max-height: 80vh;
-		overflow-y: auto;
-		z-index: 10000;
 	}
 </style>
