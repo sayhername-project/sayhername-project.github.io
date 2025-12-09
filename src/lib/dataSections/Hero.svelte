@@ -7,7 +7,7 @@
     <div
       style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 5px 10px; font-size: 12px; text-align: center;"
     >
-      Image source: #SayHerName: Black Women’s Stories of Police Violence and Public Silence
+      Background image source: #SayHerName: Black Women’s Stories of Police Violence and Public Silence
     </div>
   </div>
 
