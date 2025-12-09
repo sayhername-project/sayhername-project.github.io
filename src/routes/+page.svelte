@@ -50,9 +50,6 @@
           A Wellesley CredLab project by Katrina Huang and Kailyn Lau that examines how the #SayHerName movement unfolded across
           social media and news media in 2015.
         </p>
-        <p class="text-xl md:text-2xl text-gray-300 leading-relaxed">
-          By: Katrina and Kailyn
-        </p>
       </div>
 
       <!-- Scroll Indicator -->
