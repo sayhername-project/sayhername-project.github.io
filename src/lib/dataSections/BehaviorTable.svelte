@@ -4,21 +4,21 @@
 
 <Table striped={true}>
     <TableHead>
-        <TableHeadCell>Theme</TableHeadCell>
-        <TableHeadCell>Definition</TableHeadCell>
-        <TableHeadCell>Example Quotes</TableHeadCell>
+        <TableHeadCell class="whitespace-normal break-words">Theme</TableHeadCell>
+        <TableHeadCell class="whitespace-normal break-words">Definition</TableHeadCell>
+        <TableHeadCell class="whitespace-normal break-words">Example Quotes</TableHeadCell>
     </TableHead>
     <TableBody>
         <TableBodyRow>
-            <TableBodyCell>Outrage</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">Outrage</TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 Tweets that express anger, indignation, or fury at the violence and systemic neglect 
                 faced by Black women. These posts often condemn police brutality, judicial inaction, 
                 or lack of societal awareness, who use #SayHerName as a method for visibility and 
                 accountability. Their goal is to channel grief into resistance and demand recognition 
                 of Black women’s sufferings. 
             </TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 "The idea that women are shackled while giving birth is beyond comprehension. 
                 Sickening. #massincarceration #sayhername"
                 <br/><br/>
@@ -27,8 +27,8 @@
             </TableBodyCell>
         </TableBodyRow>
         <TableBodyRow>
-            <TableBodyCell>Unity and Support</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">Unity and Support</TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 Tweets that support the message of the hashtag and attempt to unify other women 
                 or activists to take part in the #SayHerName and #YouOkSis discussion. These posts 
                 may include calls to action, empowerment, or encouragement for collective action 
@@ -36,7 +36,7 @@
                 language to sustain community engagement and raise awareness about the 
                 intersectionality of racial and gendered violence.
             </TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 "Thank you for letting me know and for speaking #MyaHall’s name #SayHerName"
                 <br/><br/>
                 "'They think we'll lay down, but I am far from tired.' - Martinez Boyd, brother of #RekiaBoyd #SayHerName #blackwomenlivesmatter"
@@ -45,13 +45,13 @@
             </TableBodyCell>
         </TableBodyRow>
         <TableBodyRow>
-            <TableBodyCell>Sad/Mournful</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">Sad/Mournful</TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 Tweets that express sorrow, mourning, or lamenting over the violence, injustice, and 
                 loss of Black women’s lives. These tweets include sharing names, stories, tributes to 
                 victims, the highlighting of systemic issues, and discussions of grief.
             </TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 "We're here to mourn but also to highlight the work being done. #SayHerName"
                 <br/><br/>
                 "I cant stop crying #BlackWomenMatter #BlackLivesMatter #SayHerName"

@@ -4,14 +4,14 @@
 
 <Table striped={true}>
     <TableHead>
-        <TableHeadCell>Theme</TableHeadCell>
-        <TableHeadCell>Definition</TableHeadCell>
-        <TableHeadCell>Example Quotes</TableHeadCell>
+        <TableHeadCell class="whitespace-normal break-words">Theme</TableHeadCell>
+        <TableHeadCell class="whitespace-normal break-words">Definition</TableHeadCell>
+        <TableHeadCell class="whitespace-normal break-words">Example Quotes</TableHeadCell>
     </TableHead>
     <TableBody>
         <TableBodyRow>
-            <TableBodyCell>Call to Action</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">Call to Action</TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 Tweets that demand recognition of Black women’s suffering by calling on those 
                 in positions of power–such as political leaders, policymakers, and institutions 
                 (e.g., Department of Justice, elected officials)–to take concrete steps toward systemic 
@@ -20,7 +20,7 @@
                 may include tagging or mentioning public figures, petitions or calls to protest, 
                 and framing inaction as complicit behavior.
             </TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 "We need to challenge the narrative that women of color are only affected by state violence through their relationship with men. #sayhername"
                 <br/><br/>
                 "#SayHerName ACTION TODAY WED 5/20 #NYC Union Sq 530PM Black Women Matter"
@@ -31,8 +31,8 @@
             </TableBodyCell>
         </TableBodyRow>
         <TableBodyRow>
-            <TableBodyCell>Resistance</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">Resistance</TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 Tweets in this category resist interlocking systems of oppression by calling out 
                 injustice, demanding accountability, and challenging the structures that endanger 
                 and silence Black women. These posts push back against dominant narratives by 
@@ -40,15 +40,15 @@
                 marginalized perspectives into the spotlight—often expressing personal reasons 
                 to continue the movement rather than appeals directed at others.
             </TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 "Amazing....Bill Cosby still trending....#SandyBrand...not so much....pay attention and do NOT be fooled...#sayhername...#justiceforsandy"
                 <br/><br/>
                 "'My role is a contextualizer, but I'm having a hard time contextualizing rather than personalizing this moment' #SayHerName #BTSPHL"
             </TableBodyCell>
         </TableBodyRow>
         <TableBodyRow>
-            <TableBodyCell>Informational/Awareness</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">Informational/Awareness</TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 Tweets that share factual information, statistics, or updates to raise awareness 
                 about violence against Black women and the systemic inequities highlighted by 
                 #SayHerName. These posts may link to articles, reports, or data from a verified 
@@ -57,7 +57,7 @@
                 provide context about the situation. (Includes #HerDreamDeferred, the initial 
                 webinar that launched the #SayHerName movement, and Kimberle Crenshaw)
             </TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 "Today 3pm ET: #SayHerName, an online panel on race+gender in state violence. Twitter chat after at #HerDreamDeferred"
                 <br/><br/>
                 "2 out of 5 women of color report sexual assault by police - Andrea Ritchie. #HerDreamDeferred #sayhername"
@@ -68,14 +68,14 @@
             </TableBodyCell>
         </TableBodyRow>
         <TableBodyRow>
-            <TableBodyCell>Remembrance</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">Remembrance</TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 Tweets that mourn and remember the lives of Black women lost to police brutality, 
                 domestic violence, or other forms of systemic harm. These posts center the humanity 
                 of the victims by sharing their names, photos, or stories to ensure they are not 
                 forgotten.
             </TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="whitespace-normal break-words">
                 "I lift you up #RekiaBoyd another sistah killed by White Cop while doing NOTHING. I #SayHerName so that she lives on."
                 <br/><br/>
                 "Kayla Moore. Kayla Moore. Kayla Moore. Kayla Moore. Kayla Moore. Kayla Moore. Kayla Moore. #SayHerName"
