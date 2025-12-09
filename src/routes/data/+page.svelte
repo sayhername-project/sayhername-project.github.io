@@ -4,6 +4,9 @@
 	import Hero from '$lib/dataSections/Hero.svelte';
 	import Toc from 'svelte-toc';
 	import Spacer from '$lib/components/Spacer.svelte';
+	import TablePreview from '$lib/components/TablePreview.svelte';
+	import BehaviorTable from '$lib/dataSections/BehaviorTable.svelte';
+	import MotivationsTable from '$lib/dataSections/MotivationsTable.svelte';
 
 	import { onMount } from 'svelte';
 
@@ -24,6 +27,10 @@
 		return () => observer.disconnect();
 	});
 </script>
+
+<svelte:head>
+	<title>Behind the Data | #SayHerName</title>
+</svelte:head>
 
 {#if showToc}
 	<aside class="toc-container text-white">
@@ -114,7 +121,7 @@
 					>
 				</p>
 				<p class="ml-20">
-					We trained and utilized BERTweet, an open-source HuggyFace transformer that was trained on
+					We trained and utilized BERTweet, an open-source HuggingFace transformer that was trained on
 					850 million English tweets.
 					<br /><br />
 					Using the same randomly selected 2,000 tweets as before, we manually categorized the tweets
@@ -130,12 +137,52 @@
 						posting the tweet?
 					</li>
 				</ol>
+				<div class="flex flex-row">
+					<TablePreview
+						title="Behavior Themes and Select Quotations"
+						content={BehaviorTable}
+					/>
+					<TablePreview
+						title="Motivation Themes and Select Quotations"
+						content={MotivationsTable}
+					/>
+				</div>
 				<p class="ml-20">
 					The above categories were determined based on the lens of perceived meaning: how the
 					tweeter’s words, tone, and actions may have been received and understood by others within
 					the online public sphere. We do not claim to know each user’s true intentions behind their
 					tweets.
 				</p>
+				<p class="font-extrabold italic">Limitations</p>
+				<ol class="ml-10 list-decimal">
+					<li>
+						<strong>Inter-rater Reliability (IRR)</strong>
+						<br/>
+						Only one person categorized/classified 
+						the tweets that trained BERTweet for this project’s purposes. There is a 
+						chance for bias within this classification. Future projects should have multiple 
+						individuals classifying for higher validity and user trust.
+					</li>
+					<li>
+						<strong>Training Model Accuracy</strong>
+						<br/>
+						We utilized the HuggingFace <code class="rounded bg-black/20 px-2 py-1 whitespace-nowrap text-base">evaluate</code> 
+						library, which evaluates a model’s performance by comparing its predicted labels with the true labels 
+						from our validation dataset. Using the accuracy metric, it calculates the proportion of correct 
+						predictions, giving us a clear measure of how well the model is learning to classify tweets into the 
+						correct categories.
+						<br/><br/>
+						Our BERTweet for classifying behaviors in #SayHerName tweets has a low <code class="rounded bg-black/20 px-2 py-1 whitespace-nowrap text-base">eval_loss</code> 
+						of 0.369 (36.9%) and <code class="rounded bg-black/20 px-2 py-1 whitespace-nowrap text-base">eval_accuracy</code> of 0.873 (87.3%). 
+						<br/><br/>
+						Our BERTweet for classifying motivations in #SayHerName tweets has a 
+						reasonable <code class="rounded bg-black/20 px-2 py-1 whitespace-nowrap text-base">eval_loss</code>  of 0.625 (62.5%) and <code class="rounded bg-black/20 px-2 py-1 whitespace-nowrap text-base">eval_accuracy</code> with 0.774 (77.4%).
+						<br/><br/>
+						Due to time constraints, we were unable to improve upon BERTweet’s performance 
+						and encourage future projects to use larger datasets when training their 
+						HuggingFace models.
+					</li>
+				</ol>
 			</div>
 		</div>
 	</section>

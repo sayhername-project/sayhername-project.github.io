@@ -36,6 +36,10 @@
 		"vite": "^7.1.10"
 	},
 	"dependencies": {
-		"svelte-toc": "^0.6.2"
+		"@flowbite-svelte-plugins/datatable": "^0.4.1",
+		"flowbite": "^4.0.1",
+		"flowbite-svelte": "^1.30.0",
+		"svelte-toc": "^0.6.2",
+		"tailwind-merge": "^3.4.0"
 	}
 }

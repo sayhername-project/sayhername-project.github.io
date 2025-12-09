@@ -15,7 +15,7 @@
                     <div class="stat-label">total tweets with #SayHerName in 2015</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">429K+</div>
+                    <div class="stat-number">172K+</div>
                     <div class="stat-label">users involved</div>
                 </div>
                 <div class="stat-card">
@@ -64,9 +64,9 @@
         <br/>
         <ArticleText>
             We encourage you to learn more about the movement led by the 
-            <a href="https://www.aapf.org/sayhername" style="color: #0066cc; text-decoration: underline;">African American Policy Forum</a> or see our work on how 
-            the traditional media channels reacted to #SayHerName. For full details on how the above data was 
-            derived, please see our <a href = "https://katrinahuang888.github.io/SayHerName/data" style="color: #0066cc; text-decoration: underline;">full methodology page</a>.
+            <a href="https://www.aapf.org/sayhername" style="color: #0066cc; text-decoration: underline;">African American Policy Forum</a> or see 
+            our work exploring how traditional media channels reacted to #SayHerName <a href="https://katrinahuang888.github.io/SayHerName/news" style="color: #0066cc; text-decoration: underline;">here</a>. 
+            For full details on how the above data was derived, please see our <a href = "https://katrinahuang888.github.io/SayHerName/data" style="color: #0066cc; text-decoration: underline;">full methodology page</a>.
         </ArticleText>
 
     {/snippet}

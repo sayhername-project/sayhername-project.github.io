@@ -17,7 +17,7 @@
           <div class="stat-label">total tweets with #SayHerName in 2015</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">429K+</div>
+          <div class="stat-number">172K+</div>
           <div class="stat-label">users involved</div>
         </div>
       </div>
@@ -37,7 +37,7 @@
         States. The event, titled ‘Her Dream Deferred,’ offered daily streaming of panel discussions accompanied by 
         real-time Twitter conversations. #HerDreamDeferred, evocative of Langston Hughes’s 1951 poem about the 
         Black nihilism of Harlem, did not resonate widely as a hashtag, but the first day’s webcast conversation, 
-        on Monday, March 30, 2015, included a different one, <strong>#SayHerName</strong>, concise enough to gain popularity” (Jackson, Bailey, & Foucault Welles, 2020).
+        on Monday, March 30, 2015, included a different one, <strong>#SayHerName</strong>, concise enough to gain popularity” (Jackson, Bailey, & Foucault Welles, p. 49).
 
         <br /> <br/>
 

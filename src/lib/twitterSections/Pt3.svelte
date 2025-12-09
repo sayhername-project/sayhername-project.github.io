@@ -41,7 +41,7 @@
           <div class="stat-label">original tweets</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">429,024</div>
+          <div class="stat-number">172,384</div>
           <div class="stat-label">users involved</div>
         </div>
       </div>
@@ -237,7 +237,7 @@
                   timestamp="May 21, 2015 • 6:08pm"
               />
               <TweetCard
-                  text="They Love Our Bodies but Not Us…"
+                  text="They Love Our Bodies but Not Us: Powerful Images From #SayHerName Demonstrations"
                   timestamp="May 21, 2015 • 6:39pm"
               />
               <TweetCard
@@ -292,7 +292,9 @@
 
   {#snippet scrolly()}    
     <ArticleText>
-      Complementing this, three key behavioral patterns were discovered that explore how users felt about the conversation: outrage against a broken system, unifying others under this movement, or expressing sorrow about the grievances against the Black female community.
+      Complementing this, four key motivational themes were discovered that illustrate why users 
+      chose to participate: calling others to action, disseminating information, to resist a dominant 
+      narrative, or remembering those lives lost. 
     </ArticleText>
   {/snippet}
 </Scroller>

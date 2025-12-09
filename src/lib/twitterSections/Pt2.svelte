@@ -104,7 +104,7 @@
 
         <div class="cite-text">
             <p class="cite-p">
-                African American Policy Forum. (n.d.). #SayHerName. <a href="https://www.aapf.org/sayhername" style="color: #0066cc; text-decoration: underline;">https://www.aapf.org/sayhername</a>
+                African American Policy Forum. (n.d.). #SayHerName. <a href="https://www.aapf.org/sayhername" class="text-purple-300" style="text-decoration: underline;">https://www.aapf.org/sayhername</a>
             </p>
         </div>
     {/snippet}
