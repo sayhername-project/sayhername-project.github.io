@@ -318,6 +318,9 @@
                     <li>
                         Nguyen, T., Vu, X.-S., & Nguyen, M.-T. (2020). <i>BERTweet: A pre-trained language model for English Tweets</i> [Computer software]. Hugging Face. <a href="https://huggingface.co/vinai/bertweet-base" class="text-purple-300" style="text-decoration: underline;">https://huggingface.co/vinai/bertweet-base.</a>
                     </li>
+					<li>
+						Oldemburgo de Mello, V., Cheung, F., & Inzlicht, M. (2024). Twitter (X) use predicts substantial changes in well-being, polarization, sense of belonging, and outrage. Communications psychology, 2(1), 15. <a href="https://doi.org/10.1038/s44271-024-00062-z" class="text-purple-300" style="text-decoration: underline;">https://doi.org/10.1038/s44271-024-00062-z.</a>
+					</li>
                     <li>
                         Riebesell, Janosh. (2025). svelte-toc [Computer software]. GitHub. <a href="https://github.com/janosh/svelte-toc" class="text-purple-300" style="text-decoration: underline;">https://github.com/janosh/svelte-toc.</a> (Accessed December 7, 2025).
                     </li>
