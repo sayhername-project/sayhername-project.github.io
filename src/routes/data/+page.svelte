@@ -325,7 +325,7 @@
                         Riebesell, Janosh. (2025). svelte-toc [Computer software]. GitHub. <a href="https://github.com/janosh/svelte-toc" class="text-purple-300" style="text-decoration: underline;">https://github.com/janosh/svelte-toc.</a> (Accessed December 7, 2025).
                     </li>
 					<li>
-						Samra, Jasmin. "kwk-scrollytelling-template." GitHub, <a href="https://github.com/jasminesamra/kwk-scrollytelling-template" https://github.com/jasminesamra/kwk-scrollytelling-template. Accessed 7 Dec. 2025.
+						Samra, Jasmin. "kwk-scrollytelling-template." GitHub, <a href="https://github.com/jasminesamra/kwk-scrollytelling-template" class="text-purple-300" style="text-decoration: underline;">https://github.com/jasminesamra/kwk-scrollytelling-template.</a> Accessed December 7, 2025.
 					</li>
                 </ul>
             </div>
