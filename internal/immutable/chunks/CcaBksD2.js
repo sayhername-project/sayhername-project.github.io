@@ -1,0 +1,1 @@
+import{f as a,a as p}from"./DBDKi1Uu.js";import{t as i}from"./Bxd9qhup.js";import{s as m}from"./BJsX-x5w.js";import{p as f}from"./BH-OVPz6.js";var s=a("<div></div>");function c(r,o){let e=f(o,"height",3,"30vh");var t=s();i(()=>m(t,`height: ${e()??""}`)),p(r,t)}export{c as S};
