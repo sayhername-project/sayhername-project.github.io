@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>#SayHerName Co-Occurrence Network</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0f;
+      color: white;
+      font-family: system-ui, sans-serif;
+    }
+
+    svg {
+      display: block;
+      margin: auto;
+    }
+
+    .node {
+      fill: #e5e7eb;
+      stroke: #111;
+      stroke-width: 1px;
+    }
+
+    .node-label {
+        fill: #e5e7eb;
+        font-size: 12px;
+        pointer-events: none; /* prevents blocking drag */
+        text-anchor: middle;
+    }
+
+    .node.main {
+      fill: #fbbf24;
+    }
+
+    .link {
+      opacity: 0.85;
+    }
+
+    .legend {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      background: rgba(0,0,0,0.6);
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.15);
+      font-size: 14px;
+    }
+
+    .legend h4 {
+      margin: 0 0 8px 0;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .legend-line {
+      width: 30px;
+      height: 4px;
+      margin-right: 8px;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="legend">
+  <h4>Co-Occurrence Strength</h4>
+  <div class="legend-item"><div class="legend-line" style="background:#ef4444"></div>3000+</div>
+  <div class="legend-item"><div class="legend-line" style="background:#f97316"></div>1200–2999</div>
+  <div class="legend-item"><div class="legend-line" style="background:#14b8a6"></div>700–1199</div>
+  <div class="legend-item"><div class="legend-line" style="background:#3b82f6"></div>400–699</div>
+  <div class="legend-item"><div class="legend-line" style="background:#9ca3af"></div>200–399</div>
+</div>
+
+<svg width="900" height="650"></svg>
+
+<script>
+  const width = 900;
+  const height = 650;
+
+  const nodes = [
+    { id: "sandrabland", main: true },
+    { id: "doj" },
+    { id: "justiceforsandrabland" },
+    { id: "whathappenedtosandrabland" },
+    { id: "sandyspeaks" },
+    { id: "sandystillspeaks" },
+    { id: "justiceorelse" },
+    { id: "justiceforsandy" },
+    { id: "sandrawasmurdered" },
+    { id: "breakthecurfew" },
+    { id: "kindrachapman" },
+    { id: "ifidieinpolicecustody" },
+    { id: "blacktwitter" },
+    { id: "farrakhan" },
+    { id: "nojusticenopeace" },
+    { id: "saveourgirls" },
+    { id: "oakland" },
+    { id: "feelthebern" }
+  ];
+
+  const links = [
+    { source: "doj", target: "sandrabland", count: 9018 },
+    { source: "justiceforsandrabland", target: "sandrabland", count: 2167 },
+    { source: "sandrabland", target: "whathappenedtosandrabland", count: 1538 },
+    { source: "sandrabland", target: "sandyspeaks", count: 1101 },
+    { source: "justiceforsandy", target: "sandrabland", count: 895 },
+    { source: "kindrachapman", target: "sandrabland", count: 588 },
+    { source: "justiceforsandrabland", target: "whathappenedtosandrabland", count: 552 },
+    { source: "sandrabland", target: "sandystillspeaks", count: 510 },
+    { source: "justiceorelse", target: "sandrabland", count: 484 },
+    { source: "sandrabland", target: "sandrawasmurdered", count: 376 },
+    { source: "breakthecurfew", target: "oakland", count: 349 },
+    { source: "feelthebern", target: "sandrabland", count: 293 },
+    { source: "justiceforsandy", target: "whathappenedtosandrabland", count: 277 },
+    { source: "ifidieinpolicecustody", target: "sandrabland", count: 268 },
+    { source: "blacktwitter", target: "sandrabland", count: 255 },
+    { source: "farrakhan", target: "justiceorelse", count: 248 },
+    { source: "farrakhan", target: "sandrabland", count: 243 },
+    { source: "nojusticenopeace", target: "sandrabland", count: 241 },
+    { source: "sandyspeaks", target: "whathappenedtosandrabland", count: 240 },
+    { source: "justiceorelse", target: "saveourgirls", count: 223 },
+  ];
+
+  function edgeColor(count) {
+    if (count >= 3000) return "#ef4444";
+    if (count >= 1200) return "#f97316";
+    if (count >= 700)  return "#14b8a6";
+    if (count >= 400)  return "#3b82f6";
+    return "#9ca3af";
+  }
+
+  const svg = d3.select("svg");
+
+  const simulation = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id).distance(120))
+    .force("charge", d3.forceManyBody().strength(-280))
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+  const link = svg.append("g")
+    .selectAll("line")
+    .data(links)
+    .enter()
+    .append("line")
+    .attr("class", "link")
+    .attr("stroke", d => edgeColor(d.count))
+    .attr("stroke-width", d => Math.sqrt(d.count) / 8);
+
+    const node = svg.append("g")
+        .selectAll("circle")
+        .data(nodes)
+        .enter()
+        .append("circle")
+        .attr("class", d => d.main ? "node main" : "node")
+        .attr("r", d => d.main ? 18 : 8)
+        .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended)
+    );
+
+    const labels = svg.append("g")
+        .selectAll("text")
+        .data(nodes)
+        .enter()
+        .append("text")
+        .attr("class", "node-label")
+        .text(d => `#${d.id}`)
+        .attr("dy", d => d.main ? -22 : -12);
+
+
+    simulation.on("tick", () => {
+        link
+        .attr("x1", d => d.source.x)
+        .attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x)
+        .attr("y2", d => d.target.y);
+
+        node
+        .attr("cx", d => d.x)
+        .attr("cy", d => d.y);
+
+        labels
+            .attr("x", d => d.x)
+            .attr("y", d => d.y);
+
+    });
+
+    function dragstarted(event, d) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+    }
+</script>
+
+</body>
+</html>
