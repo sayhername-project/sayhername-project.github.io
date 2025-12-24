@@ -34,7 +34,7 @@ const config = {
     }),
 
     paths: {
-      base: dev ? '' : '/SayHerName'
+      base: ''
     },
 
     appDir: 'internal',
