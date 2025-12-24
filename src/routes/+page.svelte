@@ -37,7 +37,7 @@
     <div
       style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.6); color: white; padding: 5px 10px; font-size: 12px; text-align: center;"
     >
-      Background image source: #SayHerName: Black Women’s Stories of Police Violence and Public Silence
+      Background image credit: #SayHerName: Black Women’s Stories of Police Violence and Public Silence (<a href="https://burningbooks.com/products/sayhername-black-womens-stories-of-police-violence-and-public-silence">Book Cover</a>)
     </div>
     </div>
 
@@ -66,7 +66,7 @@
       <h2 class="text-4xl md:text-5xl mb-8 text-center">What is #SayHerName?</h2>
       <div class="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed">
         <p>
-          Launched in 2015 by the
+          Launched in December 2014 by the
           <strong class="text-white">African American Policy Forum (AAPF)</strong> and the
           <strong class="text-white">Center for Intersectionality and Social Policy Studies</strong>,
           #SayHerName is a social movement and campaign that brings awareness to Black women victims of police brutality and anti-Black violence.
